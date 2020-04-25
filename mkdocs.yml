@@ -1,0 +1,166 @@
+site_name: Swit Help Center
+theme:
+  name: mkdocs
+  custom_dir: 'custom_theme/'
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Intro to Swit:
+      - getting-started/i-want-to-build-a-new-workspace.md
+      - getting-started/i-want-to-join-a-workspace.md
+      - getting-started/tour-the-workspace.md
+    - Share Your Ideas In Channels:
+      - getting-started/what-are-channels.md
+      - getting-started/chat-with-your-team.md
+      - getting-started/note-your-ideas.md
+    - Plan Your Team’s Projects:
+      - getting-started/create-a-project.md
+      - getting-started/start-working.md
+      - getting-started/work-and-chat-at-once.md
+      - getting-started/what-am-i-working-on-today.md
+    - Swit Advanced:
+      - getting-started/preface.md
+      - getting-started/additional-storage-with-plan-upgrades.md
+      - getting-started/additional-feature-with-plan-upgrades.md
+      - getting-started/who-needs-advanced-tier.md
+      - getting-started/list-of-features.md
+      - getting-started/step-by-step-walkthrough.md
+      - getting-started/final-remarks.md
+      - getting-started/the-administration-feature.md
+  - Using Swit:
+    - Channels:
+      - channel/channel-archive.md
+      - channel/manage-channel-members.md
+      - channel/create-a-channel.md
+      - channel/leave-a-channel.md
+      - channel/change-channel-list-order.md
+      - channel/invite-members-to-a-channel.md
+      - channel/join-a-channel.md
+      - channel/change-channel-settings.md
+      - channel/turn-off-channel-notifications.md
+      - channel/general-channel.md
+      - channel/star-channels.md
+      - channel/archive-or-delete-channels.md
+      - channel/direct-message.md
+    - Chats:
+      - chat/send-messages.md
+      - chat/mention.md
+      - chat/make-announcement.md
+      - chat/manage-messages.md
+      - chat/star-messages.md
+      - chat/comment-on-a-message.md
+      - chat/pin-messages.md
+      - chat/create-a-task-card-in-your-chat.md
+      - chat/share-files-in-chat.md
+      - chat/emoji.md
+      - chat/edit-message.md
+    - Ideas:
+      - idea/manage-ideas.md
+      - idea/sharing-files-in-ideas.md
+      - idea/create-an-idea.md
+      - idea/comment-on-an-idea.md
+      - idea/star-an-idea.md
+    - Manage Projects:
+      - project/change-project-list-order.md
+      - project/manage-project-members.md
+      - project/project-archive.md
+      - project/turn-off-project-notifications.md
+      - project/make-a-project-private.md
+      - project/set-up-link-channel.md
+      - project/archive-or-delete-a-project.md
+      - project/change-project-settings.md
+      - project/leave-a-project.md
+      - project/join-a-project.md
+      - project/invite-members-to-a-project.md
+      - project/create-a-project.md
+      - project/from-swit-timeline-view-to-excel-exported-view.md
+      - project/star-projects.md
+    - Manage Tasks:
+      - task-card/task-priorities-and-schedule-management.md
+      - task-card/attach-a-file-to-a-task-card.md
+      - task-card/add-a-comment.md
+      - task-card/add-a-card.md
+      - task-card/linked-task.md
+      - task-card/enter-task-details.md
+      - task-card/assigned-members-and-followers.md
+      - task-card/delete-a-task-card.md
+      - task-card/tags-and-color-labels.md
+    - Task Views:
+      - task-view/bucket-view.md
+      - task-view/status-view.md
+      - task-view/calendar-view.md
+      - task-view/timeline-view.md
+      - task-view/team-view.md
+      - task-view/backlog.md
+    - Right Panel:
+      - right-panel/share-tasks-in-the-chat-right-panel.md
+      - right-panel/chat-right-panel.md
+      - right-panel/today-right-panel.md
+    - Folders:
+      - folders/create-and-manage-folders.md
+  - Account:
+    - Access Account:
+      - account-access/sign-out.md
+      - account-access/sign-up-for-swit.md
+      - account-access/manage-connected-emails.md
+      - account-access/manage-passwords.md
+      - account-access/account-security.md
+      - account-access/delete-your-account.md
+      - account-access/sso-authetication.md
+      - account-access/sign-in-and-out-of-swit.md
+    - Manage Profile:
+      - profile/profile-settings.md
+      - profile/change-account-status.md
+      - profile/language-and-time-zone-settings.md
+    - Notifications:
+      - notification/mobile-notifications.md
+      - notification/life-balance-mode.md
+      - notification/unread-count-badges.md
+      - notification/set-up-push-notifications.md
+  - Workspace Administration:
+    - Workspace:
+      - workspace/invite-new-members-to-a-workspace.md
+      - workspace/join-your-teams-workspace.md
+      - workspace/manage-workspace-invitations.md
+      - workspace/build-a-new-workspace.md
+      - workspace/workspace-analytics.md
+      - workspace/delete-a-workspace.md
+      - workspace/.DS_Store
+      - workspace/change-workspace-settings.md
+      - workspace/slack-import.md
+      - workspace/move-to-another-workspace.md
+      - workspace/leave-workspace.md
+      - workspace/manage-workspace-members.md
+      - workspace/invite-links.md
+      - workspace/workspace-export.md
+      - workspace/roles-and-permissions.md
+      - workspace/set-workspace-permissions.md
+      - workspace/app-bar.md
+    - Billing:
+      - billing/downgrade-your-plan.md
+      - billing/differences-between-the-tiers.md
+      - billing/outside-of-the-us-sales-tax.md
+      - billing/non-profit-organizations.md
+      - billing/failed-or-late-payments.md
+      - billing/add-billing-contact.md
+      - billing/downgrading-grace-period.md
+      - billing/how-to-upgrade-your-workspace.md
+      - billing/updating-your-credit-card.md
+      - billing/us-based-companies-sales-tax.md
+      - billing/automatic-renewals-for-tiers.md
+      - billing/see-billing-history-and-payments.md
+      - billing/pay-by-credit-card-or-pay-by-invoice.md
+      - billing/refund-policies.md
+      - billing/edit-invoice-and-settings.md
+      - billing/swit-for-education.md
+      - billing/interested-in-a-free-trial-standard-features-included.md
+      - billing/managing-billing-details.md
+      - billing/adding-new-registered-members-number-of-registered-users.md
+  - Integrations:
+    - integrations/g-suite-integration.md
+    - integrations/salesforce-integration.md
+  - FAQ:
+    - faq/settings.md
+    - faq/project.md
+    - faq/billing.md
+    - faq/channel.md

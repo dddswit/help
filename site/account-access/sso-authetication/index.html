@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>SSO Authetication - Swit Help Center</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../../css/theme.css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "SSO Authetication";
+    var mkdocs_page_input_path = "account-access/sso-authetication.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> Swit Help Center</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../..">Home</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Getting Started</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Intro to Swit</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/i-want-to-build-a-new-workspace/">I Want to Build a New Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/i-want-to-join-a-workspace/">I Want to Join a Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/tour-the-workspace/">Tour the Workspace</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Share Your Ideas In Channels</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/what-are-channels/">What are Channels?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/chat-with-your-team/">Chat With Your Team</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/note-your-ideas/">Note Your Ideas</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Plan Your Team’s Projects</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/create-a-project/">Create a Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/start-working/">Start Working</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/work-and-chat-at-once/">Work and Chat at Once</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/what-am-i-working-on-today/">What Am I Working on Today?</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Swit Advanced</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/preface/">Preface</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/additional-storage-with-plan-upgrades/">Additional Storage with Plan Upgrades</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/additional-feature-with-plan-upgrades/">Additional Feature with Plan Upgrades</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/who-needs-advanced-tier/">Who Needs Advanced Tier?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/list-of-features/">List of Features</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/step-by-step-walkthrough/">Step by Step Walkthrough</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/final-remarks/">Final Remarks</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../getting-started/the-administration-feature/">The “Administration” Feature</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Using Swit</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Channels</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/channel-archive/">Channel Archive</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/manage-channel-members/">Manage Channel Members</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/create-a-channel/">Create a Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/leave-a-channel/">Leave a Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/change-channel-list-order/">Change Channel List Order</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/invite-members-to-a-channel/">Invite Members to a Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/join-a-channel/">Join a Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/change-channel-settings/">Change Channel Settings</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/turn-off-channel-notifications/">Turn Off Channel Notifications</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/general-channel/">General Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/star-channels/">Star Channels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/archive-or-delete-channels/">Archive or Delete Channels</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../channel/direct-message/">Direct Message</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Chats</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/send-messages/">Send Messages</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/mention/">Mention</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/make-announcement/">Make Announcement</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/manage-messages/">Manage Messages</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/star-messages/">Star Messages</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/comment-on-a-message/">Comment on a Message</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/pin-messages/">Pin Messages</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/create-a-task-card-in-your-chat/">Create a Task Card in Your Chat</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/share-files-in-chat/">Share Files in Chat</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/emoji/">Emoji</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../chat/edit-message/">Edit Message</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Ideas</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../idea/manage-ideas/">Manage Ideas</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../idea/sharing-files-in-ideas/">Sharing Files in Ideas</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../idea/create-an-idea/">Create an Idea</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../idea/comment-on-an-idea/">Comment on an Idea</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../idea/star-an-idea/">Star an Idea</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Manage Projects</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/change-project-list-order/">Change Project List Order</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/manage-project-members/">Manage Project Members</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/project-archive/">Project Archive</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/turn-off-project-notifications/">Turn off Project Notifications</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/make-a-project-private/">Make a Project Private</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/set-up-link-channel/">Set up Link Channel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/archive-or-delete-a-project/">Archive or Delete a Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/change-project-settings/">Change Project Settings</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/leave-a-project/">Leave a Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/join-a-project/">Join a project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/invite-members-to-a-project/">Invite Members to a Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/create-a-project/">Create a Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/from-swit-timeline-view-to-excel-exported-view/">From Swit Timeline View to Excel Exported View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../project/star-projects/">Star Projects</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Manage Tasks</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/task-priorities-and-schedule-management/">Task Priorities and Schedule Management</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/attach-a-file-to-a-task-card/">Attach a File to a Task Card</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/add-a-comment/">Add a Comment</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/add-a-card/">Add a Card</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/linked-task/">Linked Task</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/enter-task-details/">Enter Task Details</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/assigned-members-and-followers/">Assigned Members and Followers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/delete-a-task-card/">Delete a Task Card</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-card/tags-and-color-labels/">Tags and Color Labels</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Task Views</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/bucket-view/">Bucket View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/status-view/">Status View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/calendar-view/">Calendar View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/timeline-view/">Timeline View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/team-view/">Team View</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../task-view/backlog/">Backlog</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Right Panel</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../right-panel/share-tasks-in-the-chat-right-panel/">Share Tasks in the Chat Right Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../right-panel/chat-right-panel/">Chat Right Panel</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../right-panel/today-right-panel/">Today Right Panel</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Folders</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../folders/create-and-manage-folders/">Create and Manage Folders</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Account</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="#">Access Account</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../sign-out/">Sign Out</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sign-up-for-swit/">Sign Up for Swit</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../manage-connected-emails/">Manage Connected Emails</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../manage-passwords/">Manage Passwords</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../account-security/">Account Security</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../delete-your-account/">Delete Your Account</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">SSO Authetication</a>
+    <ul class="current">
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../sign-in-and-out-of-swit/">Sign In and Out of Swit</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Manage Profile</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../profile/profile-settings/">Profile Settings</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../profile/change-account-status/">Change Account Status</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../profile/language-and-time-zone-settings/">Language and Time Zone Settings</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Notifications</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../notification/mobile-notifications/">Mobile Notifications</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../notification/life-balance-mode/">Life Balance Mode</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../notification/unread-count-badges/">Unread Count Badges</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../notification/set-up-push-notifications/">Set Up Push Notifications</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Workspace Administration</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Workspace</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/invite-new-members-to-a-workspace/">Invite New Members to a Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/join-your-teams-workspace/">Join Your Team's Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/manage-workspace-invitations/">Manage Workspace Invitations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/build-a-new-workspace/">Build a New Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/workspace-analytics/">Workspace Analytics</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/delete-a-workspace/">Delete a Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="" href="../../workspace/.DS_Store">None</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/change-workspace-settings/">Change Workspace Settings</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/slack-import/">Slack Import</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/move-to-another-workspace/">Move to Another Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/leave-workspace/">Leave Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/manage-workspace-members/">Manage Workspace Members</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/invite-links/">Invite Links</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/workspace-export/">Workspace Export</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/roles-and-permissions/">Roles and Permissions</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/set-workspace-permissions/">Set Workspace Permissions</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../workspace/app-bar/">App Bar</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Billing</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/downgrade-your-plan/">Downgrade your plan</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/differences-between-the-tiers/">Differences Between the Tiers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/outside-of-the-us-sales-tax/">Outside of the U.S. Sales Tax</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/non-profit-organizations/">Non-Profit Organizations</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/failed-or-late-payments/">Failed or Late Payments</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/add-billing-contact/">Add Billing Contact</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/downgrading-grace-period/">Downgrading Grace Period</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/how-to-upgrade-your-workspace/">How to Upgrade your Workspace</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/updating-your-credit-card/">Updating your Credit Card</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/us-based-companies-sales-tax/">U.S. Based Companies Sales Tax</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/automatic-renewals-for-tiers/">Automatic Renewals for Tiers</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/see-billing-history-and-payments/">See Billing History and Payments</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/pay-by-credit-card-or-pay-by-invoice/">Pay by Credit card or pay by Invoice</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/refund-policies/">Refund Policies</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/edit-invoice-and-settings/">Edit Invoice and Settings</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/swit-for-education/">Swit for Education</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/interested-in-a-free-trial-standard-features-included/">Interested in a Free Trial (Standard Features included)?</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/managing-billing-details/">Managing Billing Details</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../billing/adding-new-registered-members-number-of-registered-users/">Adding New Registered Members (number of registered users)</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Integrations</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../integrations/g-suite-integration/">G Suite Integration</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../integrations/salesforce-integration/">Salesforce Integration</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">FAQ</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../../faq/settings/">Settings</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../faq/project/">Project</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../faq/billing/">Billing</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="../../faq/channel/">Channel</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">Swit Help Center</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Access Account &raquo;</li>
+        
+      
+        
+          <li>Account &raquo;</li>
+        
+      
+    
+    <li>SSO Authetication</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="sso-authetication">SSO Authetication</h1>
+<h1 id="sso-authetication_1">SSO Authetication</h1>
+<h2 id="what-is-single-sign-on-sso">What is Single Sign-On (SSO)?</h2>
+<ul>
+<li>
+<p>SSO authentication allows enterprise customers with large internal employees to register and manage multiple members of their domain account at once.</p>
+</li>
+<li>
+<p>If users use SSO, users can use Swit through an account managed by the company without registering.</p>
+</li>
+<li>
+<p>This reduces the risk of security such as password loss and weak password management. With SSO, system administrators no longer have to manage every employee's access to services. This can improve the efficiency of manpower utilization.</p>
+</li>
+<li>
+<p>Swit Premium supports SSO services through SAML 2.0, including G Suite &amp; MS Azure and Okta.
+  How to set up Single Sign-On (SSO)</p>
+</li>
+</ul>
+<hr />
+<p><strong>Desktop</strong> </p>
+<ul>
+<li>
+<p>After opening a Swit Premium account, Premium Master or Premium Administrator will be able to sign up employees collectively through SSO authentication setup.</p>
+</li>
+<li>
+<p>Only the Premium Master or Premium Administrator can access the Administration menu.</p>
+</li>
+<li>
+<p>Click the Administration button in the lower left corner of the screen.</p>
+</li>
+<li>
+<p>Click Authentication on the left tab.</p>
+</li>
+<li>
+<p>Users can select “Members sign in with an account and password created in Swit.” Or “Members sign in using SAML.”. Click on "Members sign in using SAML."</p>
+</li>
+<li>
+<p>The user can fill in items 1, 2, and 3 below after obtaining the information. The entry information varies depending on the IdP provider. See below for how to obtain IdP information. </p>
+<ul>
+<li>If you use G Suite as your IdP Here</li>
+<li>If you use MS Azure as your IdP Here</li>
+</ul>
+</li>
+<li>
+<p>In item 4, the Premium Master or Premium Administrator can choose whether members can “All members sign in through SSO” (which means SSO authentication only) or “Sign in using either the “Normal or “SSO”, depending on Member selection.” (which means that members are allowed to sign in using SSO and traditional ID / PW methods.)</p>
+</li>
+<li>
+<p>In the 5th Custom item, you can set the image and text that appear when logging in by company.<br />
+Click “Upload” to upload the appropriate file. </p>
+<ul>
+<li>In “Add SSO login screen text” users can fill in the text that appears when you log in.</li>
+<li>Click “Preview” to check if the registered image and text are displayed correctly.</li>
+</ul>
+</li>
+<li>
+<p>When you have entered all the required information, click the Save button. The setting is now complete.
+  Configure your identity provider: Issue and verify IdP, SSO URL, Id, certificate in G Suite</p>
+</li>
+</ul>
+<hr />
+<p><strong>Desktop</strong> </p>
+<ul>
+<li>
+<p>There are some things you need to do to set up G Suite as your identity provider. </p>
+<ul>
+<li>You need to log in to the Google Admin console.</li>
+<li>You must have administrator privileges, not a regular account.</li>
+</ul>
+</li>
+<li>
+<p>Go to admin.google.com and click Apps.</p>
+</li>
+<li>
+<p>Click the SAML apps.</p>
+</li>
+<li>
+<p>Click the plus (+) icon in the bottom right corner.</p>
+</li>
+<li>
+<p>Enable SSO for SAML Application page - Click SETUP MY OWN CUSTOM APP on the bottom left.</p>
+</li>
+<li>
+<p>On Google IdP Information page, enter information in the tab of this access route.</p>
+</li>
+</ul>
+<p><strong>Access Route</strong><br />
+Sign in with Swit Premium Master or Premium Administrator account &gt; Administration button (bottom left) &gt; "Authentication Management" tab.</p>
+<pre><code> +  Copy "SSO URL" and paste it into “1. SAML 2.0 ENdpoint (HTTP)”
+
+
+ +  Copy "Entity ID" and paste it into “2. Identity Provider Issuer”
+
+
+ +  Click DOWNLOAD on Certificate to download the certificate file.
+
+
+ +  Open the certificate file with “Text Edit” (the program for editing the text file) to copy the content.
+
+
+ +  Paste the copied content into “3. Public Certificate” on the Authentication Management page. (You can paste the comments together.)
+</code></pre>
+<ul>
+<li>
+<p>On Custom App page, set Application Name.</p>
+</li>
+<li>
+<p>On Service Provider Details page, copy and paste the following value into each required field.</p>
+</li>
+</ul>
+<p>**ACS URL</p>
+<p><strong><a href="https://saml.swit.io/saml/acs">https://saml.swit.io/saml/acs</a><br />
+</strong>Entity ID</p>
+<p>**<a href="https://swit.io/">https://swit.io</a></p>
+<ul>
+<li>On Attribute Mapping page, click ADD NEW MAPPING to create / edit the necessary information for Swit integration. usermail - Basic Information - Primary Email<br />
+firstname - Basic Information - First Name<br />
+lastname - Basic Information - Last Name</li>
+</ul>
+<p><strong>Restrict entry and generation of first name and last name</strong><br />
+ • 25 characters each<br />
+ • Unable to use special characters and Unicode emoji<br />
+ • If space is created at the beginning or end of the space, the system will delete it automatically.<br />
+ • Treat 1 or more spaces as 1 space.</p>
+<p><strong>Restrict entry Email Address</strong><br />
+Local Part + 1 (@) + (Domain Part) = 254 limit</p>
+<ul>
+<li>
+<p>Users can check the icon of the service created by the administrator at Google Admin &gt; Apps &gt; SAML Apps page. </p>
+<ul>
+<li>Click on the rightmost menu button and change the status to “On for everyone.”</li>
+</ul>
+</li>
+<li>
+<p>You can check the IdP information of the existing application in the Apps icon&gt; Service Provider Details&gt; Manage certificate.
+  Configure your identity provider: Issue and verify IdP, SSO URL, Id, certificate in MS Azure</p>
+</li>
+</ul>
+<hr />
+<p><strong>Desktop</strong> </p>
+<ul>
+<li>
+<p>To set up Ms Azure as an identity provider, you must have an MS Azure account with administrator privileges.</p>
+</li>
+<li>
+<p>Go to portal.azure.com and log in, then click Azure Active Directory on the left tab. </p>
+<ul>
+<li>On the new page that appears, click “Enterprise applications” button in the middle left.</li>
+<li>Then on the All applications page, click on ‘+ New application’ in the upper left corner.</li>
+<li>Then click Non-gallery application in the upper right corner.</li>
+<li>Enter the name of the new application in the window that appears on the right and click ‘Add’ at the bottom.</li>
+</ul>
+</li>
+<li>
+<p>You can now set up single sign-on for your new application. </p>
+<ul>
+<li>Click Single sign-on on the left tab.</li>
+<li>Click the SAML button. Then “Set up Single Sing-On with SAML page” appears.</li>
+<li>Click the pencil button in the upper right corner to enter the required information on Basic SAML Configuration. Then fill in the following information in Identifier (Entity ID) and Reply URL respectively.</li>
+</ul>
+</li>
+</ul>
+<p>**Identifier</p>
+<p><strong><a href="https://swti.io/">https://swti.io</a><br />
+</strong>Reply URL</p>
+<p>**<a href="https://saml.swit.io/saml/acs">https://saml.swit.io/saml/acs</a></p>
+<pre><code> + Click the pencil button in the upper right corner to enter / edit the required information on User Attributes &amp; Claims. And click the “(+) Add new claim” button on the User Attributes &amp; Claims page and enter the following information:
+  firstname - user.givename
+</code></pre>
+<p>lastname - user.surname<br />
+useremail - user.mail  </p>
+<p><strong>OR</strong>  </p>
+<p>username - user.displayname<br />
+useremail - user.mail</p>
+<p><strong>Restrict entry and generation of first name and last name</strong><br />
+ • 25 characters each<br />
+ • Unable to use special characters and Unicode emoji<br />
+ • If space is created at the beginning or end of the space, the system will delete it automatically.<br />
+ • Treat 1 or more spaces as 1 space.</p>
+<p><strong>Restrict entry Email Address</strong><br />
+Local Part + 1 (@) + (Domain Part) = 254 limit</p>
+<ul>
+<li>Click “Download” button next to Certificate (Base 64) to download the certificate file on SAML Signing Certificate. <ul>
+<li>Open the certificate file with “Text Edit” (the program for editing the text file) to copy the content.</li>
+<li>Paste the copied content into “3. Public Certificate” on the Authentication Management page. (You can paste the comments together.)</li>
+<li>Get information from the Set up step.</li>
+<li>Copy "Login URL" and paste it into “1. SAML 2.0 ENdpoint (HTTP)”</li>
+<li>Copy "Azure AD Identifier" and paste it into “2. Identity Provider Issuer”</li>
+</ul>
+</li>
+</ul>
+<h2 id="check-the-single-sign-on-sso-setup-screen">Check the Single Sign-On (SSO) setup screen</h2>
+<p><strong>Desktop</strong> </p>
+<ul>
+<li>
+<p>If the authentication settings you saved are correct, the screen will appear where the SSO configurator can log in to the SSO account.</p>
+</li>
+<li>
+<p>The SSO configurator must log in to the account corresponding to the SSO service.</p>
+</li>
+<li>
+<p>After you successfully log in to your SSO account, you will receive a SSO Connection Successful message.</p>
+</li>
+<li>
+<p>If there is a problem with the settings you saved, you will receive a message that the SSO configurator failed to set up SSO.
+  Send Single Sign-On (SSO) activation mail</p>
+</li>
+</ul>
+<hr />
+<p><strong>Desktop</strong> </p>
+<ul>
+<li>
+<p>If the SSO configurator has correctly set up authentication, all active members will receive a binding mail.</p>
+</li>
+<li>
+<p>Members can click “Connect Accounts” button in the binding mail, and then click “Authenticate with SAML” on the subsequent page to enter the connected company's Home.</p>
+</li>
+<li>
+<p>Links within these messages are only valid for 24 hours.</p>
+</li>
+<li>
+<p>If the link in the mail expires, the user can request a premium master or administrator to resend the SSO-activated mail. (Click on Member and Groups&gt; Member Management&gt; Select Members&gt; Send the SSO binding email button)</p>
+</li>
+</ul>
+<p><strong>The following functions cannot be used when using single sign-on (SSO).</strong><br />
+ • Sign Up Mode<br />
+ • Change email address<br />
+ • Invite members to premium space<br />
+ • Change account name</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../sign-in-and-out-of-swit/" class="btn btn-neutral float-right" title="Sign In and Out of Swit">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../delete-your-account/" class="btn btn-neutral" title="Delete Your Account"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../delete-your-account/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../sign-in-and-out-of-swit/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
