@@ -1,6 +1,7 @@
 site_name: Swit Help Center
 theme:
   name: readthedocs
+  custom_dir: 'themes/readthedocs/'
 nav:
   - Home: index.md
   - Getting Started:
