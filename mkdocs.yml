@@ -1,8 +1,8 @@
 site_name: Swit Help Center
 theme:
-  name: readthedocs
+  name: mkdocs
+  custom_dir: 'themes/mkdocs/'
 nav:
-  - Home: index.md
   - Getting Started:
     - Intro to Swit:
       - getting-started/i-want-to-build-a-new-workspace.md
@@ -124,7 +124,6 @@ nav:
       - workspace/build-a-new-workspace.md
       - workspace/workspace-analytics.md
       - workspace/delete-a-workspace.md
-      - workspace/.DS_Store
       - workspace/change-workspace-settings.md
       - workspace/slack-import.md
       - workspace/move-to-another-workspace.md

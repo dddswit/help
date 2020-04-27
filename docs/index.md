@@ -1,17 +1,25 @@
-# Welcome to MkDocs
-
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div class="container type2" >
+    {%- block site_nav %}
+        {%- if nav|length>1 %}
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+                {%- for nav_item in nav %}
+                    {%- if nav_item.children %}
+                        <li class="dropdown{% if nav_item.active %} active{% endif %}">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{ nav_item.title }} <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                            {%- for nav_item in nav_item.children %}
+                                {% include "nav-sub.html" %}
+                            {%- endfor %}
+                            </ul>
+                        </li>
+                    {%- else %}
+                        <li class="navitem{% if nav_item.active %} active{% endif %}">
+                            <a href="{{ nav_item.url|url }}" class="nav-link">{{ nav_item.title }}</a>
+                        </li>
+                    {%- endif %}
+                {%- endfor %}
+            </ul>
+        {%- endif %}
+    {%- endblock %}
+</div>
