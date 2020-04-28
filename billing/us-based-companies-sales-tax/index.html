@@ -21,24 +21,48 @@
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Swit Help Center</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
+        
+            <!-- article page -->
+            <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container type1">
+        <a class="navbar-brand" href="../..">Swit Help Center</a>
+        <!-- Expander button -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Expanded navigation -->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a rel="prev" href="../updating-your-credit-card/" class="nav-link">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a rel="next" href="../automatic-renewals-for-tiers/" class="nav-link">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container type2" >
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../getting-started/" class="dropdown-item">Why Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Intro to Swit</a>
@@ -140,6 +164,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Using Swit <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../using-swit/" class="dropdown-item">Walk through Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Channels</a>
@@ -442,6 +470,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../account/" class="dropdown-item">Account Features</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Access Account</a>
     <ul class="dropdown-menu">
@@ -525,6 +557,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Workspace Administration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../workspace/" class="dropdown-item">For Your Workspace</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Workspace</a>
     <ul class="dropdown-menu">
@@ -551,10 +587,6 @@
             
 <li>
     <a href="../../workspace/delete-a-workspace/" class="dropdown-item">Delete a Workspace</a>
-</li>
-            
-<li>
-    <a href="../../workspace/.DS_Store" class="dropdown-item">None</a>
 </li>
             
 <li>
@@ -687,6 +719,10 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../../integrations/" class="dropdown-item">Integrate with Swit</a>
+</li>
+                                    
+<li>
     <a href="../../integrations/g-suite-integration/" class="dropdown-item">G Suite Integration</a>
 </li>
                                     
@@ -698,6 +734,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../faq/" class="dropdown-item">Opening FAQ Page</a>
+</li>
                                     
 <li>
     <a href="../../faq/settings/" class="dropdown-item">Settings</a>
@@ -716,32 +756,12 @@
 </li>
                                 </ul>
                             </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../updating-your-credit-card/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../automatic-renewals-for-tiers/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
@@ -749,29 +769,114 @@
     </div>
 
     
+    
+
+
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#us-based-companies-sales-tax" class="nav-link">U.S. Based Companies Sales Tax</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
+        <li class="nav-item">
+        </li>
             
-            <li class="nav-item" data-level="1"><a href="#us-based-companies-sales-tax_1" class="nav-link">U.S. Based Companies Sales Tax</a>
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+                        <h4>Workspace Administration</h4>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../../workspace/invite-new-members-to-a-workspace/" class="nav-link">Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../downgrade-your-plan/" class="nav-link">Billing</a>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../downgrade-your-plan/" class="nav-link">Downgrade your plan</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../differences-between-the-tiers/" class="nav-link">Differences Between the Tiers</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../outside-of-the-us-sales-tax/" class="nav-link">Outside of the U.S. Sales Tax</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../non-profit-organizations/" class="nav-link">Non-Profit Organizations</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../failed-or-late-payments/" class="nav-link">Failed or Late Payments</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../add-billing-contact/" class="nav-link">Add Billing Contact</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../downgrading-grace-period/" class="nav-link">Downgrading Grace Period</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../how-to-upgrade-your-workspace/" class="nav-link">How to Upgrade your Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../updating-your-credit-card/" class="nav-link">Updating your Credit Card</a>
+        </li>
+        <li class="nav-item">
+                        <ul class="nav flex-column">
+                                
+            <li class="nav-item" data-level="1">
+                <a href="#us-based-companies-sales-tax" class="content-link-main">U.S. Based Companies Sales Tax</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../automatic-renewals-for-tiers/" class="nav-link">Automatic Renewals for Tiers</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../see-billing-history-and-payments/" class="nav-link">See Billing History and Payments</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../pay-by-credit-card-or-pay-by-invoice/" class="nav-link">Pay by Credit card or pay by Invoice</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../refund-policies/" class="nav-link">Refund Policies</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../edit-invoice-and-settings/" class="nav-link">Edit Invoice and Settings</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../swit-for-education/" class="nav-link">Swit for Education</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../interested-in-a-free-trial-standard-features-included/" class="nav-link">Interested in a Free Trial (Standard Features included)?</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../managing-billing-details/" class="nav-link">Managing Billing Details</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../adding-new-registered-members-number-of-registered-users/" class="nav-link">Adding New Registered Members (number of registered users)</a>
+        </li>
+                        </ul>
+        </li>
+                        </ul>
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
         </ul>
     </div>
 </div></div>
-                    <div class="col-md-9" role="main">
-
+            <div class="col-md-9" role="main">
 <h1 id="us-based-companies-sales-tax">U.S. Based Companies Sales Tax</h1>
-<h1 id="us-based-companies-sales-tax_1">U.S. Based Companies Sales Tax</h1>
 <p>Depending on your location, customers may be charged transaction taxes — sales tax, value-added tax (VAT), etc. — when purchasing the Standard, Premium, or Enterprise Plan.</p>
 <p>### How helpful was this page?</p></div>
-            </div>
-        </div>
+    </div>
+</div>
+        
 
         <footer class="col-md-12">
             <hr>

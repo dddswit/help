@@ -21,24 +21,48 @@
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Swit Help Center</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
+        
+            <!-- article page -->
+            <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container type1">
+        <a class="navbar-brand" href="../..">Swit Help Center</a>
+        <!-- Expander button -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Expanded navigation -->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a rel="prev" href="../workspace-export/" class="nav-link">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a rel="next" href="../set-workspace-permissions/" class="nav-link">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container type2" >
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../getting-started/" class="dropdown-item">Why Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Intro to Swit</a>
@@ -140,6 +164,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Using Swit <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../using-swit/" class="dropdown-item">Walk through Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Channels</a>
@@ -442,6 +470,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../account/" class="dropdown-item">Account Features</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Access Account</a>
     <ul class="dropdown-menu">
@@ -525,6 +557,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Workspace Administration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../" class="dropdown-item">For Your Workspace</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Workspace</a>
     <ul class="dropdown-menu">
@@ -551,10 +587,6 @@
             
 <li>
     <a href="../delete-a-workspace/" class="dropdown-item">Delete a Workspace</a>
-</li>
-            
-<li>
-    <a href="../.DS_Store" class="dropdown-item">None</a>
 </li>
             
 <li>
@@ -687,6 +719,10 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../../integrations/" class="dropdown-item">Integrate with Swit</a>
+</li>
+                                    
+<li>
     <a href="../../integrations/g-suite-integration/" class="dropdown-item">G Suite Integration</a>
 </li>
                                     
@@ -698,6 +734,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../faq/" class="dropdown-item">Opening FAQ Page</a>
+</li>
                                     
 <li>
     <a href="../../faq/settings/" class="dropdown-item">Settings</a>
@@ -716,32 +756,12 @@
 </li>
                                 </ul>
                             </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../workspace-export/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../set-workspace-permissions/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
@@ -749,49 +769,130 @@
     </div>
 
     
+    
+
+
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#roles-and-permissions" class="nav-link">Roles and Permissions</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
+        <li class="nav-item">
+        </li>
             
-            <li class="nav-item" data-level="1"><a href="#roles-and-permissions_1" class="nav-link">Roles and Permissions</a>
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+                        <h4>Workspace Administration</h4>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../invite-new-members-to-a-workspace/" class="nav-link">Workspace</a>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../invite-new-members-to-a-workspace/" class="nav-link">Invite New Members to a Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../join-your-teams-workspace/" class="nav-link">Join Your Team's Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../manage-workspace-invitations/" class="nav-link">Manage Workspace Invitations</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../build-a-new-workspace/" class="nav-link">Build a New Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../workspace-analytics/" class="nav-link">Workspace Analytics</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../delete-a-workspace/" class="nav-link">Delete a Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../change-workspace-settings/" class="nav-link">Change Workspace Settings</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../slack-import/" class="nav-link">Slack Import</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../move-to-another-workspace/" class="nav-link">Move to Another Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../leave-workspace/" class="nav-link">Leave Workspace</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../manage-workspace-members/" class="nav-link">Manage Workspace Members</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../invite-links/" class="nav-link">Invite Links</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../workspace-export/" class="nav-link">Workspace Export</a>
+        </li>
+        <li class="nav-item">
+                        <ul class="nav flex-column">
+                                
+            <li class="nav-item" data-level="1">
+                <a href="#roles-and-permissions" class="content-link-main">Roles and Permissions</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#super-admin" class="nav-link">Super Admin</a>
+            <li class="nav-item" data-level="2">
+                <a href="#super-admin" class="content-link-sub">Super Admin</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#master" class="nav-link">Master</a>
+            <li class="nav-item" data-level="2">
+                <a href="#master" class="content-link-sub">Master</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#admin" class="nav-link">Admin</a>
+            <li class="nav-item" data-level="2">
+                <a href="#admin" class="content-link-sub">Admin</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#host" class="nav-link">Host</a>
+            <li class="nav-item" data-level="2">
+                <a href="#host" class="content-link-sub">Host</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#member" class="nav-link">Member</a>
+            <li class="nav-item" data-level="2">
+                <a href="#member" class="content-link-sub">Member</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#guest" class="nav-link">Guest</a>
+            <li class="nav-item" data-level="2">
+                <a href="#guest" class="content-link-sub">Guest</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../set-workspace-permissions/" class="nav-link">Set Workspace Permissions</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../app-bar/" class="nav-link">App Bar</a>
+        </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../../billing/downgrade-your-plan/" class="nav-link">Billing</a>
+        </li>
+                        </ul>
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
         </ul>
     </div>
 </div></div>
-                    <div class="col-md-9" role="main">
-
+            <div class="col-md-9" role="main">
 <h1 id="roles-and-permissions">Roles and Permissions</h1>
-<h1 id="roles-and-permissions_1">Roles and Permissions</h1>
 <h2 id="super-admin">Super Admin</h2>
 <p>The Super Admin role can only be managed by one person at first, who will have access to multiple Workspaces at one time. With our Cross-Functional Workspace feature, the Super Admin will be able to view all of the Workspaces in his/her control on one dashboard, with real-time updates. As the Super Admin, you can now easily multi-task and ensure quality control over each Workspace. The Super Admin will be responsible for adding/removing Members from each Workspace(only applicable to Enterprise Tier), creating and deleting Workspaces, handle all Billing/Payment information, and responsible for any Upgrades/Downgrades.</p>
 <p>This feature will only be available to customers who have access to Swit Premium or Swit Enterprise. Depending on your permissions settings, you may be able to have more than one Super Admin, if necessary.</p>
@@ -808,8 +909,9 @@
 <h2 id="guest">Guest</h2>
 <p>Guests are not permanent Members, and can only be invited into Workspaces with (at minimum) Swit Standard. Guests collaborate in the Workspace for a limited time only.</p>
 <p>Guests are not charged directly; The Master of the Workspace will be charged for each Guest being able to use a particular Workspace.</p></div>
-            </div>
-        </div>
+    </div>
+</div>
+        
 
         <footer class="col-md-12">
             <hr>

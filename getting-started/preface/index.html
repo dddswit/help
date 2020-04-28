@@ -21,24 +21,48 @@
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Swit Help Center</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
+        
+            <!-- article page -->
+            <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container type1">
+        <a class="navbar-brand" href="../..">Swit Help Center</a>
+        <!-- Expander button -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Expanded navigation -->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a rel="prev" href="../what-am-i-working-on-today/" class="nav-link">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a rel="next" href="../additional-storage-with-plan-upgrades/" class="nav-link">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container type2" >
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Why Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Intro to Swit</a>
@@ -140,6 +164,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Using Swit <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../using-swit/" class="dropdown-item">Walk through Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Channels</a>
@@ -442,6 +470,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../account/" class="dropdown-item">Account Features</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Access Account</a>
     <ul class="dropdown-menu">
@@ -525,6 +557,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Workspace Administration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../workspace/" class="dropdown-item">For Your Workspace</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Workspace</a>
     <ul class="dropdown-menu">
@@ -551,10 +587,6 @@
             
 <li>
     <a href="../../workspace/delete-a-workspace/" class="dropdown-item">Delete a Workspace</a>
-</li>
-            
-<li>
-    <a href="../../workspace/.DS_Store" class="dropdown-item">None</a>
 </li>
             
 <li>
@@ -687,6 +719,10 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../../integrations/" class="dropdown-item">Integrate with Swit</a>
+</li>
+                                    
+<li>
     <a href="../../integrations/g-suite-integration/" class="dropdown-item">G Suite Integration</a>
 </li>
                                     
@@ -698,6 +734,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../faq/" class="dropdown-item">Opening FAQ Page</a>
+</li>
                                     
 <li>
     <a href="../../faq/settings/" class="dropdown-item">Settings</a>
@@ -716,32 +756,12 @@
 </li>
                                 </ul>
                             </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../what-am-i-working-on-today/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../additional-storage-with-plan-upgrades/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
@@ -749,23 +769,87 @@
     </div>
 
     
+    
+
+
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#preface" class="nav-link">Preface</a>
+        <li class="nav-item">
+                        <h4>Getting Started</h4>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../i-want-to-build-a-new-workspace/" class="nav-link">Intro to Swit</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../what-are-channels/" class="nav-link">Share Your Ideas In Channels</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../create-a-project/" class="nav-link">Plan Your Team’s Projects</a>
+        </li>
+        <li class="nav-item">
+                        <a href="./" class="nav-link">Swit Advanced</a>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <ul class="nav flex-column">
+                                
+            <li class="nav-item" data-level="1">
+                <a href="#preface" class="content-link-main">Preface</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../additional-storage-with-plan-upgrades/" class="nav-link">Additional Storage with Plan Upgrades</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../additional-feature-with-plan-upgrades/" class="nav-link">Additional Feature with Plan Upgrades</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../who-needs-advanced-tier/" class="nav-link">Who Needs Advanced Tier?</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../list-of-features/" class="nav-link">List of Features</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../step-by-step-walkthrough/" class="nav-link">Step by Step Walkthrough</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../final-remarks/" class="nav-link">Final Remarks</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../the-administration-feature/" class="nav-link">The “Administration” Feature</a>
+        </li>
+                        </ul>
+        </li>
+                        </ul>
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
         </ul>
     </div>
 </div></div>
-                    <div class="col-md-9" role="main">
-
+            <div class="col-md-9" role="main">
 <h1 id="preface">Preface</h1>
 <p>SWIT is a specific business- or organization-oriented technological device. By choosing Advanced Tier, which is specifically designed for larger teams (more than 50 employees) with cross-functional collaboration using multiple workspaces, you unlock the full potential of your working team. Are you ready to get to the bottom of this renovation and find out how to utilize this tool for your team? Then stay with me. I walk you through each step of getting to know Advanced Tier. </p>
 <p>In this walkthrough, each lesson focuses on a particular subject for clarity’s sake, such as how to sign up for an Advanced Tier account or make use of its special features. This information covers everything you need to get started as a SWIT Advanced Tier member. By the end, you will feel like you can SWIT with the best of them. Are you ready?</p></div>
-            </div>
-        </div>
+    </div>
+</div>
+        
 
         <footer class="col-md-12">
             <hr>

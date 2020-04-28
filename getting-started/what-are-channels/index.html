@@ -21,24 +21,48 @@
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href="../..">Swit Help Center</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem">
-                                <a href="../.." class="nav-link">Home</a>
-                            </li>
+        
+            <!-- article page -->
+            <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+    <div class="container type1">
+        <a class="navbar-brand" href="../..">Swit Help Center</a>
+        <!-- Expander button -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Expanded navigation -->
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a rel="prev" href="../tour-the-workspace/" class="nav-link">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a rel="next" href="../chat-with-your-team/" class="nav-link">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container type2" >
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
                             <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Why Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Intro to Swit</a>
@@ -140,6 +164,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Using Swit <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../using-swit/" class="dropdown-item">Walk through Swit</a>
+</li>
                                     
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Channels</a>
@@ -442,6 +470,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Account <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../account/" class="dropdown-item">Account Features</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Access Account</a>
     <ul class="dropdown-menu">
@@ -525,6 +557,10 @@
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Workspace Administration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
+<li>
+    <a href="../../workspace/" class="dropdown-item">For Your Workspace</a>
+</li>
+                                    
   <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Workspace</a>
     <ul class="dropdown-menu">
@@ -551,10 +587,6 @@
             
 <li>
     <a href="../../workspace/delete-a-workspace/" class="dropdown-item">Delete a Workspace</a>
-</li>
-            
-<li>
-    <a href="../../workspace/.DS_Store" class="dropdown-item">None</a>
 </li>
             
 <li>
@@ -687,6 +719,10 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
+    <a href="../../integrations/" class="dropdown-item">Integrate with Swit</a>
+</li>
+                                    
+<li>
     <a href="../../integrations/g-suite-integration/" class="dropdown-item">G Suite Integration</a>
 </li>
                                     
@@ -698,6 +734,10 @@
                             <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">FAQ <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../faq/" class="dropdown-item">Opening FAQ Page</a>
+</li>
                                     
 <li>
     <a href="../../faq/settings/" class="dropdown-item">Settings</a>
@@ -716,32 +756,12 @@
 </li>
                                 </ul>
                             </li>
-                        </ul>
-
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../tour-the-workspace/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../chat-with-your-team/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+                </ul>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+            <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
     <div class="navbar-header">
         <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
             <span class="fa fa-angle-down"></span>
@@ -749,41 +769,87 @@
     </div>
 
     
+    
+
+
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#what-are-channels" class="nav-link">What are Channels?</a>
+        <li class="nav-item">
+                        <h4>Getting Started</h4>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <a href="../i-want-to-build-a-new-workspace/" class="nav-link">Intro to Swit</a>
+        </li>
+        <li class="nav-item">
+                        <a href="./" class="nav-link">Share Your Ideas In Channels</a>
+                        <ul class="nav flex-column">
+        <li class="nav-item">
+                        <ul class="nav flex-column">
+                                
+            <li class="nav-item" data-level="1">
+                <a href="#what-are-channels" class="content-link-main">What are Channels?</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2">
+                <a href="#create-channel" class="content-link-sub">Create Channel</a>
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2">
+                <a href="#invite-more-members" class="content-link-sub">Invite More Members</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2">
+                <a href="#create-channel-folders" class="content-link-sub">Create Channel Folders</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2">
+                <a href="#mute-channel-push-notifications" class="content-link-sub">Mute Channel Push Notifications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../chat-with-your-team/" class="nav-link">Chat With Your Team</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../note-your-ideas/" class="nav-link">Note Your Ideas</a>
+        </li>
+                        </ul>
+        </li>
+        <li class="nav-item">
+                        <a href="../create-a-project/" class="nav-link">Plan Your Team’s Projects</a>
+        </li>
+        <li class="nav-item">
+                        <a href="../preface/" class="nav-link">Swit Advanced</a>
+        </li>
+                        </ul>
+        </li>
             
-            <li class="nav-item" data-level="1"><a href="#what-are-channels_1" class="nav-link">What are Channels?</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#create-channel" class="nav-link">Create Channel</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#invite-more-members" class="nav-link">Invite More Members</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#create-channel-folders" class="nav-link">Create Channel Folders</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#mute-channel-push-notifications" class="nav-link">Mute Channel Push Notifications</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
+            
+        <li class="nav-item">
+        </li>
         </ul>
     </div>
 </div></div>
-                    <div class="col-md-9" role="main">
-
+            <div class="col-md-9" role="main">
 <h1 id="what-are-channels">What are Channels?</h1>
-<h1 id="what-are-channels_1">What are Channels?</h1>
 <p>Keep in touch with your team through Channels! This is the place to chat, share Files, and record Ideas. Let's create a Channel right now.</p>
 <h2 id="create-channel">Create Channel</h2>
 <p>To create a new Channel, click the <img alt="Proejct tool bar" src="https://files.swit.io/help_image/GS_04_Create_icon.png" /> plus icon next to the Channel List, then enter the name for the new Channel. Select the Member(s) you would like to invite. While writing a purpose is optional, it can help keep the Channel conversation focused.</p>
@@ -806,8 +872,9 @@ The Master cannot view Private Channels he or she has not been invited to.</p>
 <h2 id="mute-channel-push-notifications">Mute Channel Push Notifications</h2>
 <p>Hover over the Channel name in the Channel List. Click the Notification icon to mute that Channel's Notifications. If you change your mind, just click the icon one more time to turn Notifications back on.</p>
 <p><img alt="Proejct tool bar" src="https://files.swit.io/help_image/GS_04_Mute_channel.png" /> If you mute Notifications via the web, mobile Push Notifications will also be muted. For detailed Notifications information, see <a href="https://help.swit.io/">Set Up Push Notifications</a>.</p></div>
-            </div>
-        </div>
+    </div>
+</div>
+        
 
         <footer class="col-md-12">
             <hr>
