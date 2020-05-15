@@ -1,8 +1,5 @@
 # Create a Project
 
-Create a Project
-================
-
  Planning your Projects from start to finish shouldn’t be a hassle. With Swit, spend less time delegating and more time doing. You’ve got this!
 
    

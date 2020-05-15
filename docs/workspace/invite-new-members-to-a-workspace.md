@@ -1,8 +1,5 @@
 # Invite New Members to a Workspace
 
-Invite New Members to a Workspace
-=================================
-
  Your ability to invite Members to a Workspace depends on your permissions, which are set by the Master. To check out your Permissions, see [Set Workspace Permissions](https://help.swit.io/feature/19021808473085p1BBi/1902260525213uEbops).  
 Would you like to add more people to your Workspace?
 

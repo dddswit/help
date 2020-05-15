@@ -1,8 +1,5 @@
 # Invite Members to a Project
 
-Invite Members to a Project
-===========================
-
  Anyone can invite Members to a Project.
 
 

@@ -1,8 +1,5 @@
 # Change Project List Order
 
-Change Project List Order
-=========================
-
  To change the order of the Project List, simply drag and drop the Projects to rearrange.
 
  ![Build a new workspace](https://files.swit.io/help_image/FB_MP12_Folder.png) You can change the order by dragging and dropping Projects and Project Folders.

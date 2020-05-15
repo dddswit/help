@@ -1,8 +1,5 @@
 # Note Your Ideas
 
-Note Your Ideas
-===============
-
  What do you do when you have a good idea? Most people write it down and forget about it. Now, you can freely write down and share your Ideas with your team anywhere and anytime using Swit.
 
  Create an Idea

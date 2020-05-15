@@ -1,8 +1,5 @@
 # Delete a Task Card
 
-Delete a Task Card
-==================
-
 
 
 **Desktop** 

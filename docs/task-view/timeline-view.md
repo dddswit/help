@@ -1,8 +1,5 @@
 # Timeline View
 
-Timeline View
-=============
-
  Timeline allows you to view the duration and progress of the Project.
 
  ![Build a new workspace](https://files.swit.io/help_image/GS_08_Timeline_view.png) Add a Task Card to your schedule by dragging it from the Backlog. Hover over the Task title to show the Due Date icon, which allows you to manage your work schedule.  

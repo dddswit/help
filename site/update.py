@@ -1,5 +1,6 @@
 import os, yaml
 
+"""
 files = []
 for sub in os.listdir(os.getcwd()):
     sub_path = os.path.join(os.getcwd(),sub)
@@ -9,8 +10,20 @@ for sub in os.listdir(os.getcwd()):
             
 yaml.dump(files, open('bbb.yml','w'))
 #print(files)
+"""
 
-
+for sub in os.listdir(os.getcwd()):
+    sub_path = os.path.join(os.getcwd(),sub)
+    if os.path.isdir(sub_path):
+        for f in os.listdir(sub_path):
+            if f.endswith('.md'):
+                with open(sub + '/' + f, 'r', encoding='utf-8') as ff:
+                    c = ff.read().split('\n')
+                    if len(c) > 3 and c[0].startswith('# ') and c[1] == '' and c[3].startswith('==') and c[3].replace('=','') == '':
+                        del c[1:4]
+                    c = '\n'.join(c)
+                with open(sub + '/' + f, 'w', encoding='utf-8') as ff:
+                    ff.write(c)
 
 
 """

@@ -1,8 +1,5 @@
 # Star Projects
 
-Star Projects
-=============
-
  Projects that have been Starred are added to the Starred Items at the top of the Projects List.
 
    

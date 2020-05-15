@@ -1,8 +1,5 @@
 # Share Tasks in the Chat Right Panel
 
-Share Tasks in the Chat Right Panel
-===================================
-
  ![TaskDR](https://files.swit.io/help_image/FB_IN2_TaskDR.png)
 
 **Desktop** 

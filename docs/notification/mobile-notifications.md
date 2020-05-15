@@ -1,8 +1,5 @@
 # Mobile Notifications
 
-Mobile Notifications
-====================
-
  If you are inactive on the desktop version of Swit, you will receive Notifications on the mobile version. You can choose when to receive these Mobile Notifications.
 
 

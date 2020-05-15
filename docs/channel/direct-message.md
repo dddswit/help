@@ -1,8 +1,5 @@
 # Direct Message
 
-Direct Message
-==============
-
  Use Direct Messages to chat with specific Members one-on-one. To start a Direct Message, follow the steps below.
 
 

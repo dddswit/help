@@ -1,8 +1,5 @@
 # Delete a Workspace
 
-Delete a Workspace
-==================
-
  A Workspace which you no longer use can only be Deleted by the Master. However, please note that when a Workspace is deleted, all of the associated data is deleted and cannot be recovered.
 
    

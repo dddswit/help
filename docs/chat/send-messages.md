@@ -1,8 +1,5 @@
 # Send Messages
 
-Send Messages
-=============
-
  Let's begin by sending a Message.
 
 

@@ -1,8 +1,5 @@
 # Manage Messages
 
-Manage Messages
-===============
-
  ### Edit a Message
 
  The feature is under development.

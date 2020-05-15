@@ -1,8 +1,5 @@
 # Manage Workspace Members
 
-Manage Workspace Members
-========================
-
  Only the Master and Admin can manage Workspace Members. If your Permissions Settings allow you to manage Workspace Members, this means you can change certain Members’ roles or even remove Members from the Workspace.
 
    

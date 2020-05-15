@@ -1,8 +1,5 @@
 # Set Workspace Permissions
 
-Set Workspace Permissions
-=========================
-
  Depending on the assigned role, every Member has different Permissions. A Master is the creator of a Workspace. An Admin has been appointed by the Master to act as a secondary Master of the Workspace, with the only difference being that an Admin cannot delete a Workspace or transfer the role of Master. A Host is a Member that has created a Channel, Project, or Task Card and thus is the "Host" or "Owner" of that Channel/Project/Task Card. For more information on the Permissions of each role, see [Roles and Permissions](https://help.swit.io/feature/19021808473085p1BBi/1902281307463ERaDdX).
 
    

@@ -1,8 +1,5 @@
 # Pin Messages
 
-Pin Messages
-============
-
  Pin important Messages in the Channel to keep newly added Members up-to-date.
 
    

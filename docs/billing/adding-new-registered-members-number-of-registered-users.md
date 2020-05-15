@@ -1,8 +1,5 @@
 # Adding New Registered Members (number of registered users)
 
-Adding New Registered Members (number of registered users)
-==========================================================
-
  Being able to expand your team and keep it growing is the whole point of using a collaborative software like Swit. We want to see you grow and expand as far as possible.
 
    

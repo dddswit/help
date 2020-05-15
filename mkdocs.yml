@@ -4,6 +4,7 @@ theme:
   custom_dir: 'themes/mkdocs/'
 nav:
   - Getting Started:
+    - Why Swit: getting-started.md
     - Intro to Swit:
       - getting-started/i-want-to-build-a-new-workspace.md
       - getting-started/i-want-to-join-a-workspace.md
@@ -27,6 +28,7 @@ nav:
       - getting-started/final-remarks.md
       - getting-started/the-administration-feature.md
   - Using Swit:
+    - Walk through Swit: using-swit.md
     - Channels:
       - channel/channel-archive.md
       - channel/manage-channel-members.md
@@ -98,6 +100,7 @@ nav:
     - Folders:
       - folders/create-and-manage-folders.md
   - Account:
+    - Account Features: account.md
     - Access Account:
       - account-access/sign-out.md
       - account-access/sign-up-for-swit.md
@@ -117,6 +120,7 @@ nav:
       - notification/unread-count-badges.md
       - notification/set-up-push-notifications.md
   - Workspace Administration:
+    - For Your Workspace: workspace.md
     - Workspace:
       - workspace/invite-new-members-to-a-workspace.md
       - workspace/join-your-teams-workspace.md
@@ -155,9 +159,13 @@ nav:
       - billing/managing-billing-details.md
       - billing/adding-new-registered-members-number-of-registered-users.md
   - Integrations:
+    - Integrate with Swit: integrations.md
     - integrations/g-suite-integration.md
     - integrations/salesforce-integration.md
+    - integrations/automate-with-zapier.md
+    - integrations/integrate-zoom.md
   - FAQ:
+    - Opening FAQ Page: faq.md
     - faq/settings.md
     - faq/project.md
     - faq/billing.md

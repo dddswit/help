@@ -1,8 +1,5 @@
 # Account Security
 
-Account Security
-================
-
  If you have reason to be concerned about the security of your account, don’t worry! To ensure your account information is secure, simply sign out of any sessions currently open.
 
  If you have forgotten to log out of a public computer or you have lost your mobile phone, you can log out of all unattended sessions except the one that you are currently in.

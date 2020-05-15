@@ -1,8 +1,5 @@
 # Turn Off Channel Notifications
 
-Turn Off Channel Notifications
-==============================
-
 
 
 **Desktop** 

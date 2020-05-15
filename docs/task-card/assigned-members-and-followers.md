@@ -1,8 +1,5 @@
 # Assigned Members and Followers
 
-Assigned Members and Followers
-==============================
-
  In addition to the original creator or Host of the Task Card, anyone can follow a Task or assign a Member to complete it.
 
    

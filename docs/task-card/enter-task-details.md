@@ -1,8 +1,5 @@
 # Enter Task Details
 
-Enter Task Details
-==================
-
  To manage the details of a Task, simply click on the Task Card. Enter the details you wish to add to the Task. Adding details to a Task ensures that all Members are on the same page about what work needs to be done.
 
  ![Build a new workspace](https://files.swit.io/help_image/FB_MT2_Check1.png.png) To delete a Task Card, click the manage icon.

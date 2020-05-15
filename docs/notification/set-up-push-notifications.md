@@ -1,8 +1,5 @@
 # Set Up Push Notifications
 
-Set Up Push Notifications
-=========================
-
  Push Notifications will appear when there are new updates in the Workspace. Notifications can be set all at once or separately.
 
  For setting up individual Notifications, see [Set Exceptional Notifications](https://help.swit.io/feature/1902180850089vVQZM2/1902281145423giEERi).

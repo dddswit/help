@@ -1,8 +1,5 @@
 # Failed or Late Payments
 
-Failed or Late Payments
-=======================
-
  Here at Swit, we do understand that sometimes accidents happen. Payments might arrive late or not at all due to certain personal complications, or issues with your credit card. The Super Admin, Workspace Master, or the Admin (with Billing Permissions) may change the Billing/Account information to ensure that Swit receives payment on time.
 
    

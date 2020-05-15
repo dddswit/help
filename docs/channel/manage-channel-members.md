@@ -1,8 +1,5 @@
 # Manage Channel Members
 
-Manage Channel Members
-======================
-
  Only the Master, Admin, and Host can make changes in regards to Channel Members.
 
  Transfer Host Role

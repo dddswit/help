@@ -1,8 +1,5 @@
 # Manage Workspace Invitations
 
-Manage Workspace Invitations
-============================
-
  Only the Master and Admin can manage Workspace invitations.
 
    

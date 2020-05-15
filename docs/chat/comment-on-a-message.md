@@ -1,8 +1,5 @@
 # Comment on a Message
 
-Comment on a Message
-====================
-
  If you want to reply to a particular Message, you may add a Comment.
 
 

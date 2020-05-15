@@ -1,8 +1,5 @@
 # Attach a File to a Task Card
 
-Attach a File to a Task Card
-============================
-
  Get easy access to your work-related Files by uploading them to relevant Tasks.
 
  You can get an overview of all the Files in Channels and Projects you are a Member of by looking in Files located in the App Bar.

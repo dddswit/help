@@ -1,8 +1,5 @@
 # Life Balance Mode
 
-Life Balance Mode
-=================
-
  Life Balance Mode allows you to stop receiving Push Notifications from Swit for as long as the mode is on. To activate Life Balance Mode, follow the steps below.
 
 

@@ -1,8 +1,5 @@
 # Set up Link Channel
 
-Set up Link Channel
-===================
-
  Link Channel is connecting a Project to a specific Channel. Click the Link Channel icon to display the Channel you have connected in your Project directly to the Chatting Right Panel. For more information, see [Chat Right Panel](https://help.swit.io/feature/1902180850260lVE2Fh/1902281153453ow80uk).
 
    

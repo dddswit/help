@@ -1,8 +1,5 @@
 # See Billing History and Payments
 
-See Billing History and Payments
-================================
-
  Trying to find out where you can check on your Billing History and Payments? It is extremely simple! Just go to your Workspace Settings and when you click on “Billing”, you will see (Depending on your plan).
 
    

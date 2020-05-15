@@ -1,8 +1,5 @@
 # Downgrade your plan
 
-Downgrade your plan:
-====================
-
 
 
 **Desktop** 

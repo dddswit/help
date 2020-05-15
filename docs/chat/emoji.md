@@ -1,8 +1,5 @@
 # Emoji
 
-Emoji
-=====
-
  An Emoji is an expressive reaction icon that adds personality to your Chat.
 
    

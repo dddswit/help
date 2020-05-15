@@ -1,8 +1,5 @@
 # What Am I Working on Today?
 
-What Am I Working on Today?
-===========================
-
  To find out more about how to maximize your time at work every day, read on!
 
  Check Out Today's Work

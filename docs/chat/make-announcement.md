@@ -1,8 +1,5 @@
 # Make Announcement
 
-Make Announcement
-=================
-
  This is where you can share the results of important decisions and company announcements.
 
 

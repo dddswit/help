@@ -1,8 +1,5 @@
 # Start Working
 
-Start Working
-=============
-
  Now that your Workspace is ready, it's time to create a Task Card as your first step toward Project completion!
 
  Create a Task

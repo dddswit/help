@@ -1,8 +1,5 @@
 # Star Channels
 
-Star Channels
-=============
-
  Starring Channels allows you to keep all of your important Channels at the top of the Channel list.
 
    

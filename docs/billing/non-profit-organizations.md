@@ -1,8 +1,5 @@
 # Non-Profit Organizations
 
-Non-Profit Organizations
-========================
-
  We offer more discounts for Non-Profit Organizations. Swit won’t be free for paid Tiers, just discounted.
 
    

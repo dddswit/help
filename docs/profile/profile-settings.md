@@ -1,8 +1,5 @@
 # Profile Settings
 
-Profile Settings
-================
-
  Swit has both Account Profile Settings and Workspace Profile Settings.
 
    

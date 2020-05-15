@@ -1,8 +1,5 @@
 # Leave a Channel
 
-Leave a Channel
-===============
-
  You may find that having too many Channels reduces your work efficiency. In that case, make sure to organize your personal Channels regularly.
 
 

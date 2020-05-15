@@ -1,8 +1,5 @@
 # Sharing Files in Ideas
 
-Sharing Files in Ideas
-======================
-
  Make it easier for your team to locate relevant Files by sharing them when you post an Idea.
 
  You can see all the Files of Channels and Projects you are a Member of by looking in Files, located in the App Bar.

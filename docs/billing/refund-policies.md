@@ -1,8 +1,5 @@
 # Refund Policies
 
-Refund Policies
-===============
-
  At Swit, our Refunds will be given back in the form of Swit Credits, which have many different uses for our users. You can use your Credits to pay for our Services, use Credits to pay for Upgrades (regardless if you have a Annual or Monthly Plan), and use Credits to pay for the next Months’/Years’ Services as well.
 
    

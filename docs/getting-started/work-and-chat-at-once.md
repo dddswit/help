@@ -1,8 +1,5 @@
 # Work and Chat at Once
 
-Work and Chat at Once
-=====================
-
  No need to switch back and forth - working and chatting simultaneously is easy with Swit!
 
  Chat Right Panel

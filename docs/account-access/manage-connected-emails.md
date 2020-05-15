@@ -1,8 +1,5 @@
 # Manage Connected Emails
 
-Manage Connected Emails
-=======================
-
  Swit allows one Account to have access to multiple Workspaces. If you wish to use different email addresses for different Workspaces, you may register additional email addresses in Account Settings. Swit Account Notifications are sent to the main email address that is on File, while Workspace Notifications are sent to the email address registered to that Workspace.
 
    

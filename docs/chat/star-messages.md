@@ -1,8 +1,5 @@
 # Star Messages
 
-Star Messages
-=============
-
  Star important Messages to be able to quickly find them later. Unlike Pinned Messages, only you can see the list of your Starred Items.
 
    

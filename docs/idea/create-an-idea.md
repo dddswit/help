@@ -1,8 +1,5 @@
 # Create an Idea
 
-Create an Idea
-==============
-
  Unlike fast-paced Chatting, Ideas allow Members to jot down team notes and save them for later.
 
  ![Build a new workspace](https://files.swit.io/help_image/GS_06_Ideas.png)

@@ -1,8 +1,5 @@
 # Pay by Credit card or pay by Invoice
 
-Pay by Credit card or pay by Invoice
-====================================
-
  Here at Swit we allow you to pay by Credit Card or by Invoice, it’s the best of both worlds! Paying by credit card might be the fastest way to pay but if you are eligible you can choose to receive invoices.
 
  ### Credit Card:

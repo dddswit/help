@@ -60,7 +60,7 @@
 
     <body{% if page and page.is_homepage %} class="homepage"{% endif %}>
 
-        {% if page and page.is_homepage %}
+        {% if page.is_homepage %}
             <!-- home page -->
             {% include "home.html" %}
         {% else %}

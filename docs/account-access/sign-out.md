@@ -1,8 +1,5 @@
 # Sign Out
 
-Sign Out
-========
-
  There are two ways to sign out, but try to keep in mind that once you sign out of your account, you will be signed out of all Workspaces too.
 
    

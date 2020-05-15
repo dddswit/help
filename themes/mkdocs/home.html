@@ -1,9 +1,20 @@
-<div class="container" >
-    <ul class="nav navbar-nav">
-        {%- for nav_item in nav %}
-            <li>
-                <a href="{{ nav_item.title }}" class="nav-link">{{ nav_item.title }}</a>
-            </li>
-        {%- endfor %}
-    </ul>
+<div class="home-category-wrap">
+
+<div style="display: inline-block; padding:20px">
+    <img src="img/logo.png" width=100px height=100px>
+</div>
+<div style="display: inline-block; padding:20px">
+    <h2>Swit Help Center (Framework)</h2>
+</div>
+<div style="display: block;"></div>
+
+{%- for nav_item in nav %}
+    <div class="home_category">
+        <a href="{{ nav_item.children[0].url }}" class="nav-link">{{ nav_item.title }}</a>
+    </div>
+    {%- if loop.index % 3 == 0 %}
+        <div style="display: block;"></div>
+    {%- endif %}
+{%- endfor %}
+
 </div>

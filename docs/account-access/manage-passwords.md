@@ -1,8 +1,5 @@
 # Manage Passwords
 
-Manage Passwords
-================
-
  ### Change Your Password
 
  Follow the steps below to change your Password.

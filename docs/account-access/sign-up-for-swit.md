@@ -1,8 +1,5 @@
 # Sign Up for Swit
 
-Sign Up for Swit
-================
-
  Don't have a Swit Account yet? Follow the steps below to create a new Swit Account.
 
 

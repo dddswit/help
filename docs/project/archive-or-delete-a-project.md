@@ -1,8 +1,5 @@
 # Archive or Delete a Project
 
-Archive or Delete a Project
-===========================
-
  You can clean up unused Projects by archiving and deleting them.
 
  Depending on your Permissions, you may or may not be able to archive or delete Projects. For more information on Permissions Settings, see [Set Workspace Permissions](https://help.swit.io/feature/19021808473085p1BBi/1902260525213uEbops).

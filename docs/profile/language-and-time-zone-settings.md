@@ -1,8 +1,5 @@
 # Language and Time Zone Settings
 
-Language and Time Zone Settings
-===============================
-
  You can use Swit in any language and from any location in the world. We look forward to using Swit in a variety of languages very soon!
 
  ![Build a new workspace](https://files.swit.io/help_image/FB_AC6_Preference.png)   

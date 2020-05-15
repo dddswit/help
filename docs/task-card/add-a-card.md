@@ -1,8 +1,5 @@
 # Add a Card
 
-Add a Card
-==========
-
 
 
 **Desktop** 

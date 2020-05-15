@@ -1,8 +1,5 @@
 # App Bar
 
-App Bar
-=======
-
  ### Activity
 
  You can view all of the activity in the Workspaces you belong to. Click on the Activity contents to move to that location. Unchecked [Activity] is displayed in blue. Clicking [Mark all as read] will process all [Activity] as read.

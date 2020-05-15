@@ -1,8 +1,5 @@
 # Today Right Panel
 
-Today Right Panel
-=================
-
  You can view all your incomplete Tasks in the Right Panel.
 
  ![pannel](https://files.swit.io/help_image/GS_10_Today.png) Today Right Panel includes overdue Tasks and Tasks you have to do today.

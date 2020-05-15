@@ -1,8 +1,5 @@
 # Build a New Workspace
 
-Build a New Workspace
-=====================
-
  Create a special Workspace just for your team.
 
 

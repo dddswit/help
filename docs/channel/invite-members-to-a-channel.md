@@ -1,8 +1,5 @@
 # Invite Members to a Channel
 
-Invite Members to a Channel
-===========================
-
  Anyone can invite Members to a Channel.
 
 

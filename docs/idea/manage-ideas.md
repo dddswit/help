@@ -1,8 +1,5 @@
 # Manage Ideas
 
-Manage Ideas
-============
-
  ### Edit an Idea
 
 

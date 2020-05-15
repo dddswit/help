@@ -1,8 +1,5 @@
 # Create a Channel
 
-Create a Channel
-================
-
  There are two kinds of Channels.  
   
 **Public Channel**  

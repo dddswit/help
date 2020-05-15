@@ -1,8 +1,5 @@
 # Unread Count Badges
 
-Unread Count Badges
-===================
-
  Unread Count Badges let you customize your Notifications. You can decide if you wish to receive “Every”, Notification from Channels and Projects OR switch it to “Nothing”, so you won’t see any badge Notifications.
 
 

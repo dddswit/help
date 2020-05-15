@@ -1,8 +1,5 @@
 # Join Your Team's Workspace
 
-Join Your Team's Workspace
-==========================
-
  Is your team already using Swit? Great, follow these steps to join them!
 
 

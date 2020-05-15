@@ -1,8 +1,5 @@
 # Chat With Your Team
 
-Chat With Your Team
-===================
-
  Sending and receiving Messages in Swit is simple and intuitive. Just write the text in the input box of your chosen Channel and send the Message!
 
  Mentions

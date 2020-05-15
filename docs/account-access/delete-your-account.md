@@ -1,8 +1,5 @@
 # Delete Your Account
 
-Delete Your Account
-===================
-
  If you would no longer like to use Swit, you can delete your account by following the steps below.
 
 

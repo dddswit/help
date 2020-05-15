@@ -1,8 +1,5 @@
 # Swit for Education
 
-Swit for Education
-==================
-
  Are you a student? Swit’s Education Program will provide generous discounts for most schools who qualify! We will be able to provide schools with the Standard and Premium Tiers at a discounted rate.
 
 

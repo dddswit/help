@@ -1,8 +1,5 @@
 # Archive or Delete Channels
 
-Archive or Delete Channels
-==========================
-
  Clean up your Channel List by archiving or deleting Channels.
 
  Depending on your Permissions, you may not be able to archive or delete Channels. For more information on Permissions Settings, see [Set Workspace Permissions](https://help.swit.io/feature/19021808473085p1BBi/1902260525213uEbops).

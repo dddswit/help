@@ -1,8 +1,5 @@
 # What are Channels?
 
-What are Channels?
-==================
-
  Keep in touch with your team through Channels! This is the place to chat, share Files, and record Ideas. Let's create a Channel right now.
 
  Create Channel

@@ -1,8 +1,5 @@
 # Chat Right Panel
 
-Chat Right Panel
-================
-
  Why waste time switching between multiple Chats or Tasks? Use the Right Panel to engage in Chat and Tasks simultaneously!
 
  ![Build a new workspace](https://files.swit.io/help_image/GS_09_Linkchannel.png)   

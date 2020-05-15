@@ -1,8 +1,5 @@
 # Bucket View
 
-Bucket View
-===========
-
  Bucket View groups and categorizes Tasks.
 
  ![Build a new workspace](https://files.swit.io/help_image/GS_08_Bucket_view.png)   

@@ -1,8 +1,5 @@
 # Automatic Renewals for Tiers
 
-Automatic Renewals for Tiers
-============================
-
  All kinds of paid tiers will be automatically renewed, unless stopped or downgraded.
 
    

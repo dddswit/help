@@ -1,8 +1,5 @@
 # Downgrading Grace Period
 
-Downgrading Grace Period
-========================
-
  Downgrading your Plan will decrease the storage space you will have. Once you Downgrade your Plan, storage will be hidden until grace period ends (depending on which Plan you currently have). See below for each Plan’s grace period.
 
 

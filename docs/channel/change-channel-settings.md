@@ -1,8 +1,5 @@
 # Change Channel Settings
 
-Change Channel Settings
-=======================
-
  Keeping the Channel information up-to-date helps Members stay on-task.
 
 

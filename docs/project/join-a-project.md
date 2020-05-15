@@ -1,8 +1,5 @@
 # Join a project
 
-Join a project
-==============
-
  Any Member can find and join Projects within the Workspace(s) they belong to.
 
 

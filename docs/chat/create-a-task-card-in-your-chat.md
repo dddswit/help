@@ -1,8 +1,5 @@
 # Create a Task Card in Your Chat
 
-Create a Task Card in Your Chat
-===============================
-
  New Tasks come to mind while you were chatting? Add a Task Card before you forget! Create a Task Card without having to move to the Project Box.
 
 

@@ -1,8 +1,5 @@
 # Join a Channel
 
-Join a Channel
-==============
-
  Any Member in a Workspace can find and join Channels. Let's find out what Channels there are.
 
 

@@ -1,8 +1,5 @@
 # Sign In and Out of Swit
 
-Sign In and Out of Swit
-=======================
-
  Follow the steps below to sign in or out of Swit.  
 Click [Sign in] on the [Swit website](https://swit.io/).  
 Enter your account email address and password.  

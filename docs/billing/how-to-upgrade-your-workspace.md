@@ -1,8 +1,5 @@
 # How to Upgrade your Workspace
 
-How to Upgrade your Workspace
-=============================
-
  ### Upgrading your Workspace from Free to Paid
 
  We are glad to see that you have decided to take the next step and upgrade your Workplace to a Paid Plan! By Upgrading your plan, you will be able to take advantage of many new Swit features! Here are the steps you will need in order to upgrade your Workspace.

@@ -1,8 +1,5 @@
 # Mention
 
-Mention
-=======
-
  When you need immediate feedback, you can mention Members.
 
 

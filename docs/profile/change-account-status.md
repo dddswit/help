@@ -1,8 +1,5 @@
 # Change Account Status
 
-Change Account Status
-=====================
-
  Update your account status to reflect your current availability to your team members (i.e. out of office, in a meeting, etc.). You can select from a variety of status options such as the ones listed below:
 
  

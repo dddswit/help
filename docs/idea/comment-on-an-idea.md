@@ -1,8 +1,5 @@
 # Comment on an Idea
 
-Comment on an Idea
-==================
-
  Comments allow you to add content or leave a note. Follow the directions below for further assistance.
 
 

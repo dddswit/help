@@ -1,8 +1,5 @@
 # Turn off Project Notifications
 
-Turn off Project Notifications
-==============================
-
 
 
 **Desktop** 

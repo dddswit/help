@@ -1,8 +1,5 @@
 # Task Priorities and Schedule Management
 
-Task Priorities and Schedule Management
-=======================================
-
  The more you work, the more important it becomes to prioritize your Tasks. Swit has five levels of Priority to help you stay organized and on-track.
 
 

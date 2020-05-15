@@ -1,8 +1,5 @@
 # Leave a Project
 
-Leave a Project
-===============
-
  You may leave and rejoin a Public Project at any time. See [Join a Project](https://help.swit.io/feature/1902180848368yzcXmP/19022807415010pLpYp) for more information.
 
 

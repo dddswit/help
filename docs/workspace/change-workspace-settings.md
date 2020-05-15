@@ -1,8 +1,5 @@
 # Change Workspace Settings
 
-Change Workspace Settings
-=========================
-
  Only the Master and the Admin can change Workspace Settings. Do not be alarmed if your team name changes in the future. You can always edit it in Workspace Settings.
 
 

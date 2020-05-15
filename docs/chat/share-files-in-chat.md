@@ -1,8 +1,5 @@
 # Share Files in Chat
 
-Share Files in Chat
-===================
-
  Freely exchange relevant Files in Chat.
 
  In the Header of each Workspace, you will be able to see the Files of Channels and Projects you are in.

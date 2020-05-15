@@ -1,8 +1,5 @@
 # Updating your Credit Card
 
-Updating your Credit Card
-=========================
-
  You can update your credit card for payment simply in your Workspace settings.
 
    

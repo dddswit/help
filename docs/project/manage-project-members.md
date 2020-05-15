@@ -1,8 +1,5 @@
 # Manage Project Members
 
-Manage Project Members
-======================
-
  Only the Master, Admin, or Host can make changes in regards to the Project Members.
 
  Transfer Host Role

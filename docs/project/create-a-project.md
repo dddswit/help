@@ -1,8 +1,5 @@
 # Create a Project
 
-Create a Project
-================
-
  There are two kinds of Projects in Swit - Public Projects and Private Projects.
 
  ### Public Project

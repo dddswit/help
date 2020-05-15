@@ -1,8 +1,5 @@
 # SSO Authetication
 
-SSO Authetication
-=================
-
  What is Single Sign-On (SSO)?
 -----------------------------
 

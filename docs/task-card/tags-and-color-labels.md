@@ -1,8 +1,5 @@
 # Tags and Color Labels
 
-Tags and Color Labels
-=====================
-
  Tags and Color Labels allow you to easily categorize and filter your Tasks.
 
    

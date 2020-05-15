@@ -1,8 +1,5 @@
 # Change Channel List Order
 
-Change Channel List Order
-=========================
-
  Drag and drop to rearrange the Channels in the list.
 
  ![Build a new workspace](https://files.swit.io/help_image/GS_04_Folder.png) You can change the order of Channels, Direct Messages, and Channel Folders by dragging and dropping.
