@@ -37,6 +37,23 @@ body > .container {
     float: right;
 }
 
+.col-md-9 ol li ul {
+    list-style-type: disc;
+}
+.col-md-9 ol li ul li ul {
+    list-style-type: none;
+}
+.col-md-9 ol li ul li ul > li:before {
+    display: inline-block;
+    content: "-";
+    width: 1em;
+    margin-left: -1em;
+}
+
+.col-md-9 ol li ul li {
+    margin-left: -20px;
+}
+
 .col-md-9 img {
     max-width: 100%;
     display: inline-block;
@@ -48,15 +65,15 @@ body > .container {
     margin: 0px auto 10px auto;
 }
 
-h1 {
-    color: #444;
-    font-weight: 400;
-    font-size: 42px;
-}
-
-h2, h3, h4, h5, h6 {
-    color: #444;
-    font-weight: 300;
+.col-md-9 img.icon {
+    max-width: 100%;
+    display: inline-block;
+    padding: 0px;
+    line-height: none;
+    background-color: none;
+    border: none;
+    border-radius: none;
+    margin: 0px 0px 5px 0px;
 }
 
 hr {
@@ -165,8 +182,7 @@ footer {
 
 /* First level of nav */
 .bs-sidebar > .navbar-collapse > .nav {
-    padding-top:    10px;
-    padding-bottom: 10px;
+    padding: 10px;
     border-radius: 5px;
     width: 100%;
 }
@@ -190,8 +206,8 @@ footer {
     border-right: 1px solid;
 }
 
-.bs-sidebar .nav .nav .nav {
-    margin-left: 1em;
+.bs-sidebar .nav .nav .nav .nav {
+    margin-left: 1.5em;
 }
 
 .bs-sidebar .nav > li > a {

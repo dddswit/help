@@ -826,7 +826,7 @@
               </ul>
             </li>
             <li class="nav-item" data-level="2">
-                <a href="#getting-started" class="content-link-sub">Getting started</a>
+                <a href="#get-started" class="content-link-sub">Get started</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -868,7 +868,7 @@
 </ul>
 <p>The screen below shows some of the different actions available. Using a collection of these actions, you can build a fully interactive, instant, bidirectional synchronization between the two services. </p>
 <p><img alt="Action list" src="../img/github-action-list.png" /></p>
-<h2 id="getting-started">Getting started<a class="headerlink" href="#getting-started" title="Permanent link"></a></h2>
+<h2 id="get-started">Get started<a class="headerlink" href="#get-started" title="Permanent link"></a></h2>
 <p>You can start using the GitHub integration by adding an action.</p>
 <h3 id="different-approaches-to-adding-an-action">Different approaches to adding an action<a class="headerlink" href="#different-approaches-to-adding-an-action" title="Permanent link"></a></h3>
 <p>For user convenience purposes, it provides various access points to add an action:</p>
@@ -878,11 +878,11 @@
 <p><img alt="Add action from Store" src="../img/github-add-action-from-store.png" /></p>
 </li>
 <li>
-<p><strong>Add an action from a channel/project:</strong> In a channel or project page, click on the GitHub icon in the top right corner, then click on <strong>Add action</strong> in the next page. In this case, the selectable actions are limited to those relevant either to the channel or project depending on which page you have accessed from.</p>
+<p><strong>Add an action from a channel/project:</strong> In a channel or project page, click on <img alt="GitHub icon" class="icon" src="../img/github-icon-git.svg" /> in the top right corner, then click on <strong>Add action</strong> in the next page. In this case, the selectable actions are limited to those relevant either to the channel or project depending on which page you have accessed from.</p>
 <p><img alt="Add action from channel" src="../img/github-add-action-from-channel.png" /></p>
 </li>
 <li>
-<p><strong>Add an action from a task card:</strong> In a task page, find the GitHub section in the bottom right corner, then click on the GitHub icon in it. In this case, the selectable actions are limited to those relevant to the task.</p>
+<p><strong>Add an action from a task card:</strong> In a task page, find the GitHub section in the bottom right corner, then click on <strong>Link</strong> in it. In this case, the selectable actions are limited to those relevant to the task.</p>
 <p><img alt="Add action from task" src="../img/github-add-action-from-task.png" /></p>
 </li>
 </ul>
@@ -905,36 +905,52 @@
 </ol>
 <p>Once successfully authorized, you are ready to add an action to sync with a GitHub repository.</p>
 <h2 id="add-actions-in-a-channel">Add actions in a channel<a class="headerlink" href="#add-actions-in-a-channel" title="Permanent link"></a></h2>
-<p>The different actions available for Swit channels are to create a chat message or an idea post from each relevant event occurring in a GitHub repository.</p>
+<p>The actions provided for Swit channels are to notify the channel members of each relevant event occurring in a GitHub repository, including:</p>
+<ul>
+<li>Issues opened</li>
+<li>Issues closed</li>
+<li>Commits pushed</li>
+<li>Pull requests opened</li>
+<li>Pull requests merged</li>
+<li>Pages created</li>
+</ul>
+<p>These event notifications can be either as <strong>chat messages</strong> or <strong>idea posts</strong>.</p>
 <p>Follow the steps below to add an action in a channel. Although we here take one example action, all channel-targeted actions can be established almost in the same way.</p>
 <ol>
 <li>
 <p>Start adding an action in either way below:</p>
 <ul>
-<li>In <strong>Swit Store</strong>, select <strong>GitHub</strong> under the <strong>Manage Apps</strong> heading, then click on <strong>Add an action</strong>.</li>
-<li>In the channel page, click on <img alt="GitHub icon" src="../img/github-git-icon.svg" /> in the top-right corner, then click on <strong>Add an action</strong>.</li>
+<li>In Swit Store select <strong>GitHub</strong> under the <strong>Manage Apps</strong> heading, then click on <strong>Add an action</strong>.</li>
+<li>In the channel page, click on <img alt="GitHub icon" class="icon" src="../img/github-icon-git.svg" /> in the top-right corner, then click on <strong>Add an action</strong>.</li>
 </ul>
-<p>If GitHub access is not yet authorized, you will be asked for it first. See <a href="#authorize-with-a-GitHub-account">Authorize with a GitHub account</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If GitHub access is not yet authorized, you will be asked for it first. See <a href="#authorize-with-a-github-account">Authorize with a GitHub account</a>.</p>
+</div>
 </li>
 <li>
 <p>Choose the action you want to add, considering:</p>
 <ul>
-<li>Which kind of GitHub event you want to sync with</li>
+<li>Which kind of GitHub event you want to be notified of</li>
 <li>Whether to create chat messages or idea posts from those GitHub events</li>
 </ul>
-<p><img alt="Connecting Swit and GitHub" src="img/github-connecting-swit-and-GitHub.png" /></p>
+<p><img alt="Connecting Swit and GitHub" src="../img/github-connecting-swit-and-github.png" width="500px" /></p>
 </li>
 <li>
 <p>Select a GitHub repository and a Swit channel that you want to connect, then confirm your action setup.</p>
-<p><img alt="Selecting GitHub repository and Swit Channel" src="img/github-selecting-GitHub-repository-and-swit-channel.png" /></p>
+<p><img alt="Selecting GitHub repository and Swit Channel" src="../img/github-selecting-github-repository-and-swit-channel.png" width="500px" /></p>
 </li>
 <li>
-<p>If successful, you will be directed where you can view all actions you have added (See Section **** for more details about this page).</p>
-<p><img alt="Action Switch Controlling Integration" src="../img/github-action-switch-controlling-integration.png" /></p>
+<p>If successful, you will be directed where you can view all actions you have added (See Section <a href="#manage-actions">Manage actions</a> for more details about this page).</p>
+<p><img alt="Action Switch Controlling Integration" src="../img/github-action-switch-controlling-integration.png" width="500px" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have reached the action adding page from a particular channel but connected the action with a different channel, the added action won't be shown because it does not belong to the current channel.</p>
+</div>
 </li>
 <li>
 <p>To test the action, create an event relevant to the newly added action. For example, if you have added an action triggered by a new issue opened, open a new issue in the relevant GitHub repository.</p>
-<p><img alt="Opening an Issue on GitHub Repository" src="../img/github-opening-an-issue.png" /></p>
+<p><img alt="Opening an Issue on GitHub Repository" src="../img/github-opening-an-issue.png" width="600px" /></p>
 </li>
 <li>
 <p>Check if the test event from GitHub has been successfully reported in the channel, either in the chat room or idea forum as specified by the action.</p>
@@ -942,26 +958,46 @@
 </li>
 </ol>
 <h2 id="add-actions-in-a-project">Add actions in a project<a class="headerlink" href="#add-actions-in-a-project" title="Permanent link"></a></h2>
-<p>Unlike the previous connection (GitHub and Swit Channel Box), the connection between GitHub and Swit Project Box provides two-way interaction--Some of actions done in Swit Project Box will either open or close an issue in GitHub repository.  I will restrict myself here to two actions that are most commonly used.</p>
-<p><img alt="Selecting an action to add" src="../img/github-selecting-an-action-to-add-project.png" /></p>
-<p>Creating a Task Card in Swit Project Box </p>
-<p>I will pick the first option to demonstrate.</p>
-<p><img alt="Selecting an action to add" src="../img/github-selecting-an-action-to-add-project.png" /></p>
-<p>Select a GitHub repository and a Swit Project that you desire to connect. </p>
-<p><img alt="Selecting GitHub repository and Swit Project" src="../img/github-selecting-github-repository-and-swit-project.png" /></p>
-<p>Open a new issue in your GitHub repository that is connected to Swit and then submit it.</p>
-<p><img alt="Opening an Issue on GitHub Repository" src="img/github-opening-an-issue-on-github-repository.png" /></p>
-<p>As you can see, Swit picked up the action made in GitHub and automatically created the task card to the linked Project Box.</p>
-<p><img alt="Creating a Task Card via GitHub" src="img/github-creating-a-task-card-via-github.png" /></p>
-<p>Opening an Issue in repository and link it to the Task Card</p>
-<p>I will pick the third option to demonstrate.</p>
-<p><img alt="Selecting an action to add" src="../img/github-selecting-an-action-to-add.png" /></p>
-<p>Select a GitHub repository and a Swit Project that you desire to connect. </p>
-<p><img alt="Selecting GitHub repository and Swit Project" src="../img/github-selecting-github-repository-and-swit-project.png" /></p>
-<p>Create a Task Card in your Swit Project Box that is connected to GitHub.</p>
-<p><img alt="Creating a Task Card" src="../img/github-creating-a-task-card.png" /></p>
-<p>As you can see, Action 2 above automatically opened the issue to the linked GitHub repository.</p>
-<p>추가가 필요한 설명</p>
+<p>The actions available in projects are mainly focused on synchronizing the opening and closing of Swit task cards and GitHub issues or pull requests in a <strong>bidirectional</strong> way. For example, an issue opened in a GitHub repository can trigger a task card to be created in a Swit project; or conversely, when a task is marked Done, the linked issue can synchronously be closed.</p>
+<p>This way, you can interact with your GitHub collaborators while staying within the Swit workspace.</p>
+<p>Follow the steps below to add an action in a project. Although we here take one example action, all project-targeted actions can be established almost in the same way.</p>
+<ol>
+<li>
+<p>Start adding an action in either way below:</p>
+<ul>
+<li>In Swit Store, select <strong>GitHub</strong> under the <strong>Manage Apps</strong> heading, then click on <strong>Add an action</strong>.</li>
+<li>In the project page, click on <img alt="GitHub icon" class="icon" src="../img/github-icon-git.svg" /> in the top-right corner, then click on <strong>Add an action</strong>.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If GitHub access is not yet authorized, you will be asked for it first. See <a href="#authorize-with-a-github-account">Authorize with a GitHub account</a>.</p>
+</div>
+</li>
+<li>
+<p>Choose the action you want to add, considering:</p>
+<ul>
+<li>Which kind of GitHub event you want to sync with</li>
+<li>
+<p>The direction of sync:</p>
+<ul>
+<li><img alt="GitHub icon" class="icon" src="../img/github-icon-git-to-swit.png" /> GitHub issues/pull requests opened/closed to create/mark Done Swit tasks, or</li>
+<li><img alt="GitHub icon" class="icon" src="../img/github-icon-swit-to-git.png" /> Swit tasks created/marked Done to open/close GitHub issues</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Selecting an action to add" src="../img/github-selecting-an-action-to-add-project.png" width="500px" /></p>
+</li>
+<li>
+<p>Select a GitHub repository and a Swit channel that you want to connect, then confirm your action setup.</p>
+<p><img alt="Selecting GitHub repository and Swit Project" src="../img/github-selecting-github-repository-and-swit-project.png" width="500px" /></p>
+</li>
+<li>
+<p>If successful, you will be directed where you can view all actions you have added (See Section **** for more details about this page).</p>
+</li>
+<li>To test the action, create an event relevant to the newly added action. For example, if you have added an action triggered by a new issue opened, open a new issue in the relevant GitHub repository.</li>
+<li>Open a new issue in your GitHub repository that is connected to Swit and then submit it.</li>
+<li>As you can see, Swit picked up the action made in GitHub and automatically created the task card to the linked Project Box.</li>
+</ol>
 <p>채널에서 개별적으로 액션을 추가하는 UI 설명</p>
 <p>The GitHub integration allows you to add an action in a Channel. Locate the GitHub logo under the Search box, then click on it.</p>
 <p>You will be directed to Swit GitHub Integration actions, where you can add actions. Click on Add action. </p>
