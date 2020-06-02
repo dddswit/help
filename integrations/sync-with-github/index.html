@@ -942,10 +942,10 @@
 </li>
 <li>
 <p>If successful, you will be directed where you can view all actions you have added (See Section <a href="#manage-actions">Manage actions</a> for more details about this page).</p>
-<p><img alt="Action Switch Controlling Integration" src="../img/github-action-switch-controlling-integration.png" width="500px" /></p>
+<p><img alt="Actions registered in channel" src="../img/github-actions-registered-in-channel.png" width="500px" /></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you have reached the action adding page from a particular channel but connected the action with a different channel, the added action won't be shown because it does not belong to the current channel.</p>
+<p>If you have reached the action adding page from a particular channel but selected a different channel therein, the added action won't be shown because it does not belong to the current channel.</p>
 </div>
 </li>
 <li>
@@ -988,13 +988,42 @@
 <p><img alt="Selecting an action to add" src="../img/github-selecting-an-action-to-add-project.png" width="500px" /></p>
 </li>
 <li>
-<p>Select a GitHub repository and a Swit channel that you want to connect, then confirm your action setup.</p>
-<p><img alt="Selecting GitHub repository and Swit Project" src="../img/github-selecting-github-repository-and-swit-project.png" width="500px" /></p>
+<p>Select a GitHub repository and a Swit project that you want to sync, then confirm your action setup.</p>
+<p><img alt="Selecting GitHub repository and Swit Project" src="../img/github-selecting-repository-and-swit-project.png" width="500px" /></p>
 </li>
 <li>
-<p>If successful, you will be directed where you can view all actions you have added (See Section **** for more details about this page).</p>
+<p>If successful, you will be directed where you can view all actions you have added (See Section <a href="#manage-actions">Manage actions</a> for more details about this page).</p>
+<p><img alt="Actions registered in project" src="../img/github-actions-registered-in-project.png" width="500px" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you have reached the action adding page from a particular project but selected a different project therein, the added action won't be shown because it does not belong to the current project.</p>
+</div>
 </li>
-<li>To test the action, create an event relevant to the newly added action. For example, if you have added an action triggered by a new issue opened, open a new issue in the relevant GitHub repository.</li>
+<li>
+<p>To test the action, perform the triggering event and check for a synchronous occurrence of the counterpart event. If you have selected "When an issue is opened in <strong>repository</strong>, create a task card linked with it in <strong>project</strong>," for example, open an issue in the selected GitHub repository and see if a corresponding tack card has been created in the Swit project.</p>
+<ul>
+<li>
+<p>An issue opened in the GitHub repository:</p>
+<p><img alt="Project sync - GitHub side" src="../img/github-project-sync-git-side.png" /></p>
+</li>
+<li>
+<p>A task card created in the Swit project:</p>
+<p><img alt="Project sync - Swit side" src="../img/github-project-sync-swit-side.png" /></p>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Some actions work in the opposite direction, i.e., an event in the Swit project triggers its corresponding event in GitHub repository. In that case, test the action by performing the event on the Swit project side and check for the synchronous event in the GitHub repository.</p>
+</div>
+</li>
+<li>
+<p>Whether a Swit task is created in sync with a GitHub issue or pull request, or it happens the other way around, the task will be attached with a direct link to the GitHub counterpart. This link is used for synchronous completion of the task and issue/pull request, and also helps task followers conveniently visit and view the GitHub article.</p>
+<p><img alt="Link in the task" src="../img/github-link-in-task.png" /></p>
+<p>See the following section of <strong><em>*</em></strong>* for more details about these links.</p>
+</li>
+<li>
+<p>To test the action, create an event relevant to the newly added action. For example, if you have added an action triggered by a new issue opened, open a new issue in the relevant GitHub repository.</p>
+</li>
 <li>Open a new issue in your GitHub repository that is connected to Swit and then submit it.</li>
 <li>As you can see, Swit picked up the action made in GitHub and automatically created the task card to the linked Project Box.</li>
 </ol>
