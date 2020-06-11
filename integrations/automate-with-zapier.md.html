@@ -1,0 +1,428 @@
+<h2>
+ What is Zapier?
+</h2>
+<p>
+ <a href="https://zapier.com/">
+  "Zapier"
+ </a>
+ is an online automation tool that connects your apps, such as Gmail, Team Projects, and more, to each other. You can connect two or more apps to automate repetitive tasks without coding or relying on developers to build the integration. It's easy enough that anyone can build their own app workflows with just a few clicks.
+</p>
+<h2>
+ Use cases with Swit
+</h2>
+<p>
+ Using the Zapier service, you can create various automated workflows with Swit. The following are a few example use cases:
+</p>
+<ul>
+ <li>
+  <strong>
+   Gmail → Swit:
+  </strong>
+  Post a new Swit idea from every new email arriving into your Gmail inbox
+ </li>
+ <li>
+  <strong>
+   Zoom → Swit:
+  </strong>
+  Post a new Swit message to notify each time a new Zoom meeting is created
+ </li>
+ <li>
+  <strong>
+   Jira → Swit:
+  </strong>
+  Post a new Swit message to notify each time a new Jira issue is created
+ </li>
+ <li>
+  <strong>
+   Swit → Google Sheets:
+  </strong>
+  Keep track of Swit task activities in a Google Sheets spreadsheet
+ </li>
+ <li>
+  <strong>
+   Swit ↔ Google Calendar:
+  </strong>
+  Create a new Google Calendar event from every new Swit task you create, or vice versa
+ </li>
+</ul>
+<p>
+ In addition to the single-step automations exemplified above, you can establish more complicated workflows involving three or more apps, e.g., Gmail → Swit → Google Sheets.
+</p>
+<h2>
+ How Zapier integrations work
+</h2>
+<p>
+ Each automated workflow established is called a "Zap." Every Zap consists of a
+ <strong>
+  trigger
+ </strong>
+ step ("when this happens…") and one or more
+ <strong>
+  action
+ </strong>
+ steps ("then do this…"). When you turn your Zap on, it will run the action steps every time the trigger event occurs.
+</p>
+<p>
+ For example, if a Zap is to post a new Swit idea from each new Gmail email, its trigger and action will be set as follows:
+</p>
+<ul>
+ <li>
+  <strong>
+   Trigger:
+  </strong>
+  New Email in Gmail
+ </li>
+ <li>
+  <strong>
+   Action:
+  </strong>
+  Create Idea in Swit
+ </li>
+</ul>
+<p>
+ The following subsection illustrates a step-by-step guide on making this Zap. Despite the countless possible combinations of apps on Zapier, this example will help you understand how to combine two or apps into a Zap.
+</p>
+<h2>
+ How to make a Zap
+</h2>
+<p>
+ This subsection will walk you through how to set up a Zap by taking an example of a Zap automatically pushing Gmail data to a Swit channel.
+</p>
+<div class="block-image">
+ <img alt="Gmail &amp; Swit" src="https://pdn.swit.io/docs/help/zapier_14.png"/>
+</div>
+<h5>
+ Get started with your Zapier account
+</h5>
+<p>
+ To implement a Zap, your Zapier account needs to be granted access to all involved apps.
+</p>
+<ol>
+ <li>
+  Make sure you have both Gmail and Swit accounts that will be used in the Zap to make.
+ </li>
+ <li>
+  Visit
+  <a href="https://zapier.com">
+   "https://zapier.com"
+  </a>
+  and sign in to your Zapier account. If you don't have an account, sign up.
+ </li>
+ <li>
+  Hover over the sidebar, or tap on ≡ in the top-left corner in the case of a touch input device, to bring out the panel, then select
+  <strong>
+   MAKE A ZAP
+  </strong>
+  .
+ </li>
+</ol>
+<h5>
+ Set up your trigger
+</h5>
+<p>
+ You will have been directed to the trigger setup page labeled
+ <strong>
+  1. When this happens …
+ </strong>
+ . A trigger is the event that starts a Zap. Once you've set up a Zap, Zapier will monitor for that trigger event.
+</p>
+<p>
+ Follow the steps below to set up a trigger:
+</p>
+<ol>
+ <li>
+  <p>
+   Under
+   <strong>
+    Choose App &amp; Event
+   </strong>
+   , search for and select the
+   <strong>
+    app
+   </strong>
+   that will trigger the Zap.
+  </p>
+  <div class="block-image">
+   <img alt="Choose App" src="https://pdn.swit.io/docs/help/zapier_01.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Click the
+   <strong>
+    Choose Trigger Event
+   </strong>
+   dropdown and select the event that occurs in the selected app that will trigger the Zap. In this example, it is set to trigger each time a new email is received in a specified Gmail mailbox. Once done, click
+   <strong>
+    CONTINUE
+   </strong>
+   .
+  </p>
+  <div class="block-image">
+   <img alt="Choose Trigger Event" src="https://pdn.swit.io/docs/help/zapier_02.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Moving onto the next step, choose the app account you want to use in the trigger, then click
+   <strong>
+    CONTINUE
+   </strong>
+   .
+  </p>
+  <ul>
+   <li>
+    If you are not signed in to the trigger app, you will be required to sign in first.
+   </li>
+  </ul>
+  <div class="block-image">
+   <img alt="Choose Account" src="https://pdn.swit.io/docs/help/zapier_03.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Customize your trigger options. Be sure to select or fill in any required fields. Varying with the app and event, this form is mainly focused on specifying the scope of the trigger event. Once done, click
+   <strong>
+    CONTINUE
+   </strong>
+   .
+  </p>
+  <div class="block-image">
+   <img alt="Customize Email" src="https://pdn.swit.io/docs/help/zapier_04.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Click
+   <strong>
+    Test trigger
+   </strong>
+   .
+  </p>
+  <div class="block-image">
+   <img alt="Find Data - found" src="https://pdn.swit.io/docs/help/zapier_05.png"/>
+  </div>
+  <p>
+   Zapier will attempt to find a recent item from your trigger app to use in the Zap. For example, if your trigger is a new email in Gmail, Zapier will pull in a recent email you've received.
+  </p>
+  <div class="block-image">
+   <img alt="Find Data - data pulled" src="https://pdn.swit.io/docs/help/zapier_06.png"/>
+  </div>
+  <p>
+   If you want to see another item's data, click the dropbox and choose another one. Once done, click
+   <strong>
+    CONTINUE
+   </strong>
+   to proceed.
+  </p>
+  <p>
+   If no matching data is found, you'll be prompted to either skip the test or try again after adding new data for the event.
+  </p>
+  <div class="block-image">
+   <img alt="Find Data - not found" src="https://pdn.swit.io/docs/help/zapier_18.png"/>
+  </div>
+  <p>
+   Although this step is not mandatory, it helps understand the data fetched by the trigger, as shown below, which will be used in an action step later in the Zap.
+  </p>
+ </li>
+</ol>
+<h5>
+ Set up your action
+</h5>
+<p>
+ After you set up your Zap trigger, the next step of
+ <strong>
+  2. Do this …
+ </strong>
+ is to add an action to your Zap. An action is a job your Zap performs when your trigger event occurs.
+</p>
+<p>
+ Follow the steps below to set up an action:
+</p>
+<ol>
+ <li>
+  <p>
+   Under
+   <strong>
+    Choose App &amp; Event
+   </strong>
+   , search for and find the
+   <strong>
+    app
+   </strong>
+   you want to use in your action.
+  </p>
+  <div class="block-image">
+   <img alt="Choose App" src="https://pdn.swit.io/docs/help/zapier_19.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Click the
+   <strong>
+    Choose Action Event
+   </strong>
+   dropdown and select the action that you want your Zap to perform. In this example, the action is set to create an idea on Swit from each new Gmail email arriving. Once done, click
+   <strong>
+    CONTINUE
+   </strong>
+   to proceed.
+  </p>
+  <div class="block-image">
+   <img alt="Choose Action Event" src="https://pdn.swit.io/docs/help/zapier_07.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Moving onto the next step, choose the app account you want to use in the action, then click
+   <strong>
+    CONTINUE
+   </strong>
+   .
+  </p>
+  <ul>
+   <li>
+    If you are not signed in to the trigger app, you will be required to sign in first.
+   </li>
+  </ul>
+  <div class="block-image">
+   <img alt="Choose Account" src="https://pdn.swit.io/docs/help/zapier_08.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Customize the data that you want to send over to your action app. Varying with the app, trigger, and action, this form is mainly focused on specifying the following:
+  </p>
+  <ul>
+   <li>
+    The specific destination where the selected action will be conducted (In this example,
+    <strong>
+     Zapier Text
+    </strong>
+    workspace &gt;
+    <strong>
+     General
+    </strong>
+    channel)
+   </li>
+   <li>
+    The data to be used by the action, which may include elements of the trigger event and additional items in different data types (In this example, the incoming email's sender, title, and content, along with their labels added in plaintext)
+   </li>
+  </ul>
+  <p>
+   Once done, click
+   <strong>
+    CONTINUE
+   </strong>
+   to proceed.
+  </p>
+  <div class="block-image">
+   <img alt="Define an action" src="https://pdn.swit.io/docs/help/zapier_11.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   The final step is to see if your action works as expected. The following screen will show you the data input for your action—that's the data that's being sent to your action app. To run the action step, click
+   <strong>
+    Test &amp; Continue
+   </strong>
+   .
+  </p>
+  <div class="block-image">
+   <img alt="Test the Zap" src="https://pdn.swit.io/docs/help/zapier_12.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   If the test is successful, all sections will be folded to show the following screen. To view the test details, click the folded
+   <strong>
+    Send Data
+   </strong>
+   section.
+  </p>
+  <div class="block-image">
+   <img alt="Test successful" src="https://pdn.swit.io/docs/help/zapier_13.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Once you’ve set up your Zap action, you can click
+   <strong>
+    Done Editing
+   </strong>
+   to finish or click on + to add another action.
+  </p>
+ </li>
+</ol>
+<h5>
+ Name your Zap
+</h5>
+<p>
+ Next, give your Zap a name so you can easily identify it on your dashboard.
+</p>
+<ul>
+ <li>
+  <p>
+   In the upper left, click
+   <strong>
+    Name your Zap
+   </strong>
+   and enter a new name for your Zap, or
+  </p>
+ </li>
+ <li>
+  <p>
+   To add more information about your Zap, give your Zap a description, click the
+   <img alt="Gear icon" src="https://pdn.swit.io/docs/help/zapier_20.png"/>
+   icon in the right sidebar to open the Settings tab, then fill in the fields. Your changes will be saved automatically.
+  </p>
+  <div class="block-image">
+   <img alt="Zap description settings" src="https://pdn.swit.io/docs/help/zapier_16.png"/>
+  </div>
+ </li>
+</ul>
+<h5>
+ Turn on your Zap
+</h5>
+<p>
+ After you set up, customize, and name your Zap, you're ready to turn it on. In the upper right, click to toggle the switch ON.
+</p>
+<div class="block-image">
+ <img alt="Turn on the zap" src="https://pdn.swit.io/docs/help/zapier_17.png"/>
+</div>
+<p>
+ Once your Zap is turned on, Zapier will run your action steps each time your trigger event occurs.
+</p>
+<h2>
+ See if the Zap works properly
+</h2>
+<p>
+ Let's send an email to the connected Gmail account to test if the Zap works properly as defined:
+</p>
+<div class="block-image">
+ <img alt="Send a test email" src="https://pdn.swit.io/docs/help/zapier_21.png"/>
+</div>
+<p>
+ Now, jump over to the specified destination (
+ <strong>
+  Zapier Text
+ </strong>
+ workspace &gt;
+ <strong>
+  General
+ </strong>
+ channel &gt; Idea forum), and check for a new post created from the incoming email.
+</p>
+<div class="block-image">
+ <img alt="Turn on the zap" src="https://pdn.swit.io/docs/help/zapier_22.png"/>
+</div>
+<p>
+ You'll find a new idea post containing the content of the sent email in the defined format.
+</p>
+<p>
+ Thus, we've created a very simple Zap. Using the various triggers and actions provided by Swit and 2,000+ other apps, you can design and use much more sophisticated and useful automations suited to your workflows. To learn all details about Zaps and their various possible applications, see the
+ <a href="https://zapier.com/help">
+  "Zapier Help documentation"
+ </a>
+ .
+</p>
