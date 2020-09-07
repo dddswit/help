@@ -1,0 +1,12 @@
+<svg height="20" id="mention-medium-nor" viewbox="-1 -1 20 20" width="20" x="526" xmlns="http://www.w3.org/2000/svg" y="380">
+ <g fill="none" fill-rule="evenodd" transform="translate(-6 -6)">
+  <circle cx="15" cy="15" r="15">
+  </circle>
+  <g stroke="#8B8E95" stroke-linecap="round" stroke-width="1.5">
+   <path d="M18.94 15.04a3.706 3.706 0 11-7.411 0 3.706 3.706 0 017.412 0z">
+   </path>
+   <path d="M18.94 15.04v.648c0 1.206.964 2.164 2.129 2.164 1.164 0 2.107-.978 2.107-2.184v-.666c0-3.53-2.216-6.765-5.587-7.807-6.693-2.068-12.725 4.202-10.213 10.924a7.698 7.698 0 004.52 4.491c2.931 1.08 5.773.537 7.872-.975">
+   </path>
+  </g>
+ </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg height="32" id="store-arrow-right-act" viewbox="-1 -1 32 32" width="32" x="416" xmlns="http://www.w3.org/2000/svg" y="55">
+ <g fill="none" fill-rule="evenodd">
+  <rect height="30" rx="14.516" width="29.032" x=".968">
+  </rect>
+  <path d="M15.782 15.018l-3.954-4.046a1.162 1.162 0 010-1.619l.017-.018a1.1 1.1 0 011.582 0l4.745 4.856a1.162 1.162 0 010 1.618l-4.745 4.856a1.1 1.1 0 01-1.582 0 1.164 1.164 0 010-1.619l3.937-4.028z" fill="#343434">
+  </path>
+ </g>
+</svg>

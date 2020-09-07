@@ -1,0 +1,34 @@
+<svg height="42" id="file-zip-medium" viewbox="-1 -1 32 42" width="32" x="256" xmlns="http://www.w3.org/2000/svg" y="314">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="140.8%" id="hda" width="140.8%" x="-20.4%" y="-14.6%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M1.429 0h14.285c.79 0 1.429.64 1.429 1.429v14.285c0 .79-.64 1.429-1.429 1.429H1.43c-.79 0-1.429-.64-1.429-1.429V1.43A1.427 1.427 0 011.429 0z" id="hdb">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M22.872 0L30 7.128v30.015A2.857 2.857 0 0127.143 40H2.857A2.857 2.857 0 010 37.143V2.857A2.857 2.857 0 012.857 0h20.015z" fill="#9A6262">
+  </path>
+  <path d="M22.857 0L30 7.143h-5.714c-.79 0-1.429-.64-1.429-1.429V0z" fill="#62291B">
+  </path>
+  <g transform="translate(6.214 14.286)">
+   <use fill="#000" filter="url(#hda)" xlink:href="#hdb">
+   </use>
+   <use fill="#FFF" xlink:href="#hdb">
+   </use>
+  </g>
+  <path d="M10.5 14.286h2.857v2.857H10.7a.2.2 0 01-.2-.2v-2.657z" fill="#9A6262">
+  </path>
+  <path d="M16.214 17.143h-2.857V20h2.657a.2.2 0 00.2-.2v-2.657z" fill="#9A6262" fill-opacity=".5">
+  </path>
+  <path d="M10.5 20h2.857v2.857H10.7a.2.2 0 01-.2-.2V20z" fill="#9A6262">
+  </path>
+  <path d="M16.214 22.857h-2.857v2.857h2.657a.2.2 0 00.2-.2v-2.657z" fill="#9A6262" fill-opacity=".5">
+  </path>
+ </g>
+</svg>

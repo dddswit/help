@@ -1,0 +1,10 @@
+<svg height="28" id="msg-emoji-hor" viewbox="-1 -1 28 28" width="28" x="56" xmlns="http://www.w3.org/2000/svg" y="448">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="13" cy="13" fill="#F1F1F1" r="13">
+  </circle>
+  <path d="M13 4a9 9 0 110 18 9 9 0 010-18z" fill="#D8D8DB">
+  </path>
+  <path d="M16.375 15.25a3.375 3.375 0 11-6.75 0h6.75zM8.5 11.875a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0m6.75 0a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0" fill="#8B8E95">
+  </path>
+ </g>
+</svg>

@@ -1,0 +1,10 @@
+<svg height="16" id="todays-small-nor" viewbox="-1 -1 16 16" width="16" x="546" xmlns="http://www.w3.org/2000/svg" y="525">
+ <g fill="none" fill-rule="evenodd">
+  <path d="M0 0h14v14H0z">
+  </path>
+  <rect fill="#8AC917" height="14" rx="7" width="14">
+  </rect>
+  <path d="M4 7.058L5.96 9 10 5" stroke="#FFF" stroke-linecap="round" stroke-width="1.5">
+  </path>
+ </g>
+</svg>

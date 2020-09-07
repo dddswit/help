@@ -2,6 +2,12 @@ site_name: Swit Help Center
 theme:
   name: mkdocs
   custom_dir: 'themes/mkdocs/'
+markdown_extensions:
+    - toc:
+        permalink: 
+    - admonition
+    - def_list
+    - attr_list
 nav:
   - Getting Started:
     - Why Swit: getting-started.md
@@ -164,6 +170,7 @@ nav:
     - integrations/salesforce-integration.md
     - integrations/automate-with-zapier.md
     - integrations/integrate-zoom.md
+    - integrations/sync-with-github.md
   - FAQ:
     - Opening FAQ Page: faq.md
     - faq/settings.md

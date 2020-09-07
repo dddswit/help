@@ -1,0 +1,8 @@
+<svg height="32" id="front-medium-hor" viewbox="-1 -1 32 32" width="32" x="96" xmlns="http://www.w3.org/2000/svg" y="356">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="15" cy="15" fill="#F1F1F1" r="15">
+  </circle>
+  <path d="M12 21l6-6.061L12.122 9" stroke="#343434" stroke-linecap="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

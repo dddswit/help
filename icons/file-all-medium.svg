@@ -1,0 +1,30 @@
+<svg height="42" id="file-all-medium" viewbox="-1 -1 32 42" width="32" x="210" xmlns="http://www.w3.org/2000/svg" y="272">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="140.8%" id="fna" width="140.8%" x="-20.4%" y="-14.6%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M3.571 10a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm10 0a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm-10-10a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm10 0a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143z" id="fnb">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M22.872 0L30 7.128v30.015A2.857 2.857 0 0127.143 40H2.857A2.857 2.857 0 010 37.143V2.857A2.857 2.857 0 012.857 0h20.015z" fill="#8B8E95">
+  </path>
+  <path d="M22.857 0L30 7.143h-5.714c-.79 0-1.429-.64-1.429-1.429V0z" fill="#343434">
+  </path>
+  <g transform="translate(6.234 14.286)">
+   <use fill="#000" filter="url(#fna)" xlink:href="#fnb">
+   </use>
+   <use fill="#FFF" xlink:href="#fnb">
+   </use>
+   <circle cx="13.571" cy="13.571" fill="#8B8E95" fill-opacity=".5" r="3.571">
+   </circle>
+   <circle cx="3.571" cy="3.571" fill="#8B8E95" fill-opacity=".5" r="3.571">
+   </circle>
+  </g>
+ </g>
+</svg>

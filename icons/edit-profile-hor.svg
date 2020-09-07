@@ -1,0 +1,8 @@
+<svg height="24" id="edit-profile-hor" viewbox="-1 -1 24 24" width="24" x="460" xmlns="http://www.w3.org/2000/svg" y="476">
+ <g fill="none" fill-rule="evenodd">
+  <path d="M8.875 19.596l-5.914.538a1 1 0 01-1.087-1.087l.538-5.914a1 1 0 01.289-.616l9.25-9.25 6.79 6.79-9.25 9.25a1 1 0 01-.616.29z" fill="#478BFF">
+  </path>
+  <path d="M19.37 9.428l-6.914-6.914 1.67-1.67a1 1 0 011.415 0l5.5 5.5a1 1 0 010 1.414l-1.67 1.67z" fill="#1D5ECC">
+  </path>
+ </g>
+</svg>

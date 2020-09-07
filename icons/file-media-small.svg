@@ -1,0 +1,32 @@
+<svg height="30" id="file-media-small" viewbox="-1 -1 22 30" width="22" x="44" xmlns="http://www.w3.org/2000/svg" y="388">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="158.3%" id="gqb" width="166.7%" x="-33.3%" y="-20.8%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M10.223 7.411l-8.181 4.854c-.55.326-1.262.15-1.591-.393a1.137 1.137 0 01-.165-.59V1.575C.286.942.805.429 1.446.429c.21 0 .415.056.596.163l8.18 4.853a1.14 1.14 0 010 1.966z" id="gqa">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M15.01 0L20 4.99V26a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h13.01z" fill="#8AC917">
+  </path>
+  <path d="M15 0l5 5h-4a1 1 0 01-1-1V0z" fill="#5A9216">
+  </path>
+  <g transform="translate(4.714 9.571)">
+   <mask fill="#fff" id="gqc">
+    <use xlink:href="#gqa">
+    </use>
+   </mask>
+   <use fill="#000" filter="url(#gqb)" xlink:href="#gqa">
+   </use>
+   <use fill="#FFF" xlink:href="#gqa">
+   </use>
+   <path d="M.286 7.429l11-6v14h-11z" fill="#8AC917" fill-opacity=".3" mask="url(#gqc)">
+   </path>
+  </g>
+ </g>
+</svg>

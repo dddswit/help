@@ -1,0 +1,8 @@
+<svg height="16" id="media-fullscreen" viewbox="-1 -1 16 16" width="16" x="546" xmlns="http://www.w3.org/2000/svg" y="400">
+ <g fill="#343434" fill-rule="evenodd">
+  <path d="M0 0h5v2H0zm0 12h5v2H0zM9 0h5v2H9zm0 12h5v2H9z">
+  </path>
+  <path d="M0 0h2v5H0zm0 9h2v5H0zm12-9h2v5h-2zm0 9h2v5h-2z">
+  </path>
+ </g>
+</svg>

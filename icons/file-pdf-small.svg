@@ -1,0 +1,38 @@
+<svg height="30" id="file-pdf-small" viewbox="-1 -1 22 30" width="22" x="88" xmlns="http://www.w3.org/2000/svg" y="388">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="158.3%" id="gwb" width="158.3%" x="-29.2%" y="-20.8%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <rect height="12" id="gwa" rx="1" width="12">
+  </rect>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M15.01 0L20 4.99V26a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h13.01z" fill="#B02C2C">
+  </path>
+  <path d="M15 0l5 5h-4a1 1 0 01-1-1V0z" fill="#590000">
+  </path>
+  <g transform="translate(4 10)">
+   <mask fill="#fff" id="gwc">
+    <use xlink:href="#gwa">
+    </use>
+   </mask>
+   <use fill="#000" filter="url(#gwb)" xlink:href="#gwa">
+   </use>
+   <use fill="#FFF" xlink:href="#gwa">
+   </use>
+   <rect fill="#B02C2C" height="2" mask="url(#gwc)" rx=".2" width="3" x="7" y="2">
+   </rect>
+   <rect fill="#B02C2C" fill-opacity=".5" height="2" mask="url(#gwc)" rx=".2" width="3" x="7" y="5">
+   </rect>
+   <rect fill="#B02C2C" height="2" mask="url(#gwc)" rx=".2" width="8" x="2" y="8">
+   </rect>
+   <path d="M4.25 2a1.75 1.75 0 010 3.5H4v1.3a.2.2 0 01-.2.2H2.2a.2.2 0 01-.2-.2V2.2c0-.11.09-.2.2-.2h2.05z" fill="#B02C2C" mask="url(#gwc)">
+   </path>
+  </g>
+ </g>
+</svg>

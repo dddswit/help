@@ -1,0 +1,32 @@
+<svg height="42" id="file-google-medium" viewbox="-1 -1 32 42" width="32" xmlns="http://www.w3.org/2000/svg" y="314">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="140.8%" id="gea" width="140.8%" x="-20.4%" y="-14.6%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M9.806 24.286a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm10 0a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm-10-10a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143zm10 0a3.571 3.571 0 110 7.143 3.571 3.571 0 010-7.143z" id="geb">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M22.872 0L30 7.128v30.015A2.857 2.857 0 0127.143 40H2.857A2.857 2.857 0 010 37.143V2.857A2.857 2.857 0 012.857 0h20.015z" fill="#8B8E95">
+  </path>
+  <path d="M22.857 0L30 7.143h-5.714c-.79 0-1.429-.64-1.429-1.429V0z" fill="#343434">
+  </path>
+  <use fill="#000" filter="url(#gea)" xlink:href="#geb">
+  </use>
+  <use fill="#FFF" xlink:href="#geb">
+  </use>
+  <circle cx="19.806" cy="27.857" fill="#8B8E95" fill-opacity=".5" r="3.571">
+  </circle>
+  <circle cx="9.806" cy="17.857" fill="#8B8E95" fill-opacity=".5" r="3.571">
+  </circle>
+  <path d="M20 28h10v10a2 2 0 01-2 2H18V30a2 2 0 012-2z" fill="#343434">
+  </path>
+  <path d="M25.725 32.251a.735.735 0 00-.285-1.025.797.797 0 00-1.066.275l-.975 1.624a.735.735 0 00.286 1.025c.28.155.376.5.214.768a.598.598 0 01-.8.206c-.932-.517-1.251-1.665-.713-2.562l.975-1.624c.539-.897 1.731-1.204 2.664-.686.932.518 1.252 1.665.713 2.562a.598.598 0 01-.799.206.551.551 0 01-.214-.769zm-3.45 3.498a.735.735 0 00.285 1.025.797.797 0 001.066-.275l.975-1.624a.735.735 0 00-.286-1.025.551.551 0 01-.214-.768.598.598 0 01.8-.206c.932.517 1.251 1.665.713 2.562l-.975 1.624c-.539.897-1.731 1.204-2.664.686-.932-.518-1.252-1.665-.713-2.562a.598.598 0 01.799-.206c.28.156.375.5.214.769z" fill="#FFF">
+  </path>
+ </g>
+</svg>

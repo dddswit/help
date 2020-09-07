@@ -1,0 +1,8 @@
+<svg height="42" id="back-sheet-hor" viewbox="-1 -1 42 42" width="42" x="126" xmlns="http://www.w3.org/2000/svg" y="272">
+ <g fill="none" fill-rule="evenodd">
+  <path d="M0 0h40v40H0z" fill="#F8F8F8">
+  </path>
+  <path d="M22 24l-4-4.04L21.919 16" stroke="#343434" stroke-linecap="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

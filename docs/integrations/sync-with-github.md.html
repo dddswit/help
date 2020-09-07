@@ -1,0 +1,577 @@
+<p>
+ The GitHub integration supports synchronous connections between your GitHub account and Swit workspace. This enables automatic creation of reports or task cards in a Swit workspace from each new event in a GitHub repository, and the other way around as well.
+</p>
+<h2>
+ Actions, the basic unit of GitHub integration
+</h2>
+<p>
+ Each single workflow established between Swit and GitHub is called an "action." The action is basically a pair of a
+ <strong>
+  triggering
+ </strong>
+ and a
+ <strong>
+  triggered
+ </strong>
+ event, for example,
+</p>
+<ul>
+ <li>
+  <strong>
+   Triggering:
+  </strong>
+  When an issue is opened in a particular
+  <strong>
+   GitHub
+  </strong>
+  repository
+ </li>
+ <li>
+  <strong>
+   Triggered:
+  </strong>
+  A notification message is created in a particular
+  <strong>
+   Swit
+  </strong>
+  channel
+ </li>
+</ul>
+<p>
+ The screen below shows some of the different actions available. Using a collection of these actions, you can build a fully interactive, instant, bidirectional synchronization between the two services.
+</p>
+<div class="block-image">
+ <img alt="Action list" src="https://dddswit.github.io/help/integrations/img/github-action-list.png"/>
+</div>
+<h2>
+ Get started
+</h2>
+<p>
+ You can start using the GitHub integration by adding an action.
+</p>
+<h5>
+ Different approaches to adding an action
+</h5>
+<p>
+ For user convenience, actions can be added from various access points:
+</p>
+<ul>
+ <li>
+  <p>
+   <strong>
+    Add an action from Store:
+   </strong>
+   In Swit Store's left menu, select
+   <strong>
+    GitHub
+   </strong>
+   &gt;
+   <strong>
+    Manage Actions
+   </strong>
+   , then click on
+   <strong>
+    Add action
+   </strong>
+   in the body section.
+  </p>
+  <div class="block-image">
+   <img alt="Add action from Store" src="https://dddswit.github.io/help/integrations/img/github-add-action-from-store.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   <strong>
+    Add an action from a channel/project:
+   </strong>
+   In a channel or project, click on
+   <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-git.svg"/>
+   in the top-right corner, then click on
+   <strong>
+    Add action
+   </strong>
+   in the next page. In this case, the selectable actions are limited to those relevant to the particular channel or project you are in.
+  </p>
+  <div class="block-image">
+   <img alt="Add action from channel" src="https://dddswit.github.io/help/integrations/img/github-add-action-from-channel.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   <strong>
+    Add an action from a task card:
+   </strong>
+   In a task card, find the GitHub box in the bottom-right corner, then click on
+   <strong>
+    Link
+   </strong>
+   in it. In this case, the selectable actions are limited to those relevant to the task.
+  </p>
+  <div class="block-image">
+   <img alt="Add action from task" src="https://dddswit.github.io/help/integrations/img/github-add-action-from-task.png"/>
+  </div>
+ </li>
+</ul>
+<p>
+ Because you have not yet authorized access to your GitHub account from the workspace, you will be asked to connect a GitHub account.
+</p>
+<h5>
+ Authorize with a GitHub account
+</h5>
+<p>
+ When prompted to authorize with your GitHub account, follow the steps below:
+</p>
+<ol>
+ <li>
+  <p>
+   Click
+   <strong>
+    Connect
+   </strong>
+   to proceed.
+  </p>
+  <div class="block-image">
+   <img alt="Asked to connect GitHub" src="https://dddswit.github.io/help/integrations/img/github-asked-to-connect-gitHub.png" width="400px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   You will be directed to the authorization page. Authorize access from your Swit account.
+  </p>
+  <div class="block-image">
+   <img alt="Authorizing Swit Github Integration" src="https://dddswit.github.io/help/integrations/img/github-authorizing-swit-github-integration.png" width="500px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   If you need multiple GitHub accounts connected, try adding an action once again as guided in previous subsection until the following screen appears, then select
+   <strong>
+    Use another account
+   </strong>
+   .
+  </p>
+  <div class="block-image">
+   <img alt="Choosing a Github account" src="https://dddswit.github.io/help/integrations/img/github-choosing-a-github-account.png" width="550px"/>
+  </div>
+ </li>
+</ol>
+<p>
+ Once successfully authorized, you are ready to add an action to sync with a GitHub repository.
+</p>
+<h2>
+ Add actions in a channel
+</h2>
+<p>
+ The actions provided for Swit channels are to notify the channel members of each relevant event occurring in a GitHub repository, including:
+</p>
+<ul>
+ <li>
+  Issues opened
+ </li>
+ <li>
+  Issues closed
+ </li>
+ <li>
+  Commits pushed
+ </li>
+ <li>
+  Pull requests opened
+ </li>
+ <li>
+  Pull requests merged
+ </li>
+ <li>
+  Pages created
+ </li>
+</ul>
+<p>
+ These event notifications can be either as
+ <strong>
+  chat messages
+ </strong>
+ or
+ <strong>
+  idea posts
+ </strong>
+ .
+</p>
+<p>
+ Follow the steps below to add an action in a channel. Although we here take one example action, all channel-targeted actions can be established almost in the same way.
+</p>
+<ol>
+ <li>
+  <p>
+   Start adding an action in either way below:
+  </p>
+  <ul>
+   <li>
+    In Swit Store, select
+    <strong>
+     GitHub
+    </strong>
+    under the
+    <strong>
+     Manage Apps
+    </strong>
+    heading, then click on
+    <strong>
+     Add an action
+    </strong>
+    .
+   </li>
+   <li>
+    In the channel page, click on
+    <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-git.svg"/>
+    in the top-right corner, then click on
+    <strong>
+     Add an action
+    </strong>
+    .
+   </li>
+  </ul>
+  <div class="tip-box">
+   <p>
+    If GitHub access is not yet authorized, you will be asked for it first. See
+    <i>
+     "Authorize with a GitHub account"
+    </i>
+    .
+   </p>
+  </div>
+ </li>
+ <li>
+  <p>
+   Choose the action you want to add, considering:
+  </p>
+  <ul>
+   <li>
+    Which kind of GitHub event you want to get notified of
+   </li>
+   <li>
+    Whether to create chat messages or idea posts from those GitHub events
+   </li>
+  </ul>
+  <div class="block-image">
+   <img alt="Connecting Swit and GitHub" src="https://dddswit.github.io/help/integrations/img/github-connecting-swit-and-github.png" width="500px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Select a GitHub repository and a Swit channel that you want to connect, then confirm your action setup.
+  </p>
+  <div class="block-image">
+   <img alt="Selecting GitHub repository and Swit Channel" src="https://dddswit.github.io/help/integrations/img/github-selecting-github-repository-and-swit-channel.png" width="500px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   If successful, you will be directed where you can view all actions you have added (See Section
+   <i>
+    "Manage actions"
+   </i>
+   for more details about this page).
+  </p>
+  <div class="block-image">
+   <img alt="Actions registered in channel" src="https://dddswit.github.io/help/integrations/img/github-actions-registered-in-channel.png" width="500px"/>
+  </div>
+  <div class="tip-box">
+   <p>
+    If you have reached the action-adding page from a particular channel but selected a different channel therein, the added action won't be shown because it does not belong to the current channel.
+   </p>
+  </div>
+ </li>
+ <li>
+  <p>
+   To test the action, perform the relevant event. For example, if you have added an action triggered by a new issue opened, open a new issue in the synced GitHub repository.
+  </p>
+  <div class="block-image">
+   <img alt="Opening an Issue on GitHub Repository" src="https://dddswit.github.io/help/integrations/img/github-opening-an-issue.png" width="600px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Check if the test event in GitHub was successfully reported in the channel, either as a chat message or idea post as specified by the action.
+  </p>
+  <div class="block-image">
+   <img alt="Getting a notification message" src="https://dddswit.github.io/help/integrations/img/github-getting-a-notification-message.png"/>
+  </div>
+ </li>
+</ol>
+<h2>
+ Add actions in a project
+</h2>
+<p>
+ The actions available in projects are mainly focused on synchronizing the creation and completion of Swit task cards and GitHub issues or pull requests in a
+ <strong>
+  bidirectional
+ </strong>
+ way. For example, an issue opened in a GitHub repository can trigger a task card to be created in a Swit project; or conversely, when a task is marked Done, the linked issue can synchronously be closed.
+</p>
+<p>
+ This way, you can interact with your GitHub collaborators while staying within the Swit workspace.
+</p>
+<p>
+ Follow the steps below to add an action in a project. Although we here take one example action, all project-targeted actions can be established almost in the same way.
+</p>
+<ol>
+ <li>
+  <p>
+   Start adding an action in either way below:
+  </p>
+  <ul>
+   <li>
+    In Swit Store, select
+    <strong>
+     GitHub
+    </strong>
+    under the
+    <strong>
+     Manage Apps
+    </strong>
+    heading, then click on
+    <strong>
+     Add an action
+    </strong>
+    .
+   </li>
+   <li>
+    In the project page, click on
+    <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-git.svg"/>
+    in the top-right corner, then click on
+    <strong>
+     Add an action
+    </strong>
+    .
+   </li>
+  </ul>
+  <div class="tip-box">
+   <p>
+    If GitHub access is not yet authorized, you will be asked for it first. See
+    <i>
+     "Authorize with a GitHub account"
+    </i>
+    .
+   </p>
+  </div>
+ </li>
+ <li>
+  <p>
+   Choose the action you want to add, considering:
+  </p>
+  <ul>
+   <li>
+    Which kind of GitHub event you want to sync with
+   </li>
+   <li>
+    <p>
+     The direction of sync:
+    </p>
+    <ul>
+     <li>
+      <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-git-to-swit.png"/>
+      When GitHub issues/pull requests are opened/closed, create/mark Done Swit tasks, or
+     </li>
+     <li>
+      <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-swit-to-git.png"/>
+      When Swit tasks are created/marked Done, open/close GitHub issues
+     </li>
+    </ul>
+   </li>
+  </ul>
+  <div class="block-image">
+   <img alt="Selecting an action to add" src="https://dddswit.github.io/help/integrations/img/github-selecting-an-action-to-add-project.png" width="500px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Select a GitHub repository and a Swit project that you want to sync, then confirm your action setup.
+  </p>
+  <div class="block-image">
+   <img alt="Selecting GitHub repository and Swit Project" src="https://dddswit.github.io/help/integrations/img/github-selecting-repository-and-swit-project.png" width="500px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   If successful, you will be directed where you can view all actions you have added (See Section
+   <i>
+    "Manage actions"
+   </i>
+   for more details about this page).
+  </p>
+  <div class="block-image">
+   <img alt="Actions registered in project" src="https://dddswit.github.io/help/integrations/img/github-actions-registered-in-project.png" width="500px"/>
+  </div>
+  <div class="tip-box">
+   <p>
+    If you have reached the action-adding page from a particular project but selected a different project therein, the added action won't be shown because it does not belong to the current project.
+   </p>
+  </div>
+ </li>
+ <li>
+  <p>
+   To test the action, perform the triggering event and check for a synchronous occurrence of the counterpart event. If you have selected "When an issue is opened in
+   <strong>
+    repository
+   </strong>
+   , create a task card linked with it in
+   <strong>
+    project
+   </strong>
+   ," for example, open an issue in the selected GitHub repository and see if a corresponding tack card has been created in the Swit project.
+  </p>
+  <ul>
+   <li>
+    <p>
+     An issue opened in the GitHub repository:
+    </p>
+    <div class="block-image">
+     <img alt="Project sync - GitHub side" src="https://dddswit.github.io/help/integrations/img/github-project-sync-git-side.png"/>
+    </div>
+   </li>
+   <li>
+    <p>
+     A task card created in the Swit project:
+    </p>
+    <div class="block-image">
+     <img alt="Project sync - Swit side" src="https://dddswit.github.io/help/integrations/img/github-project-sync-swit-side.png"/>
+    </div>
+   </li>
+  </ul>
+  <div class="tip-box">
+   <p>
+    Some actions work in the opposite direction, i.e., an event in the Swit project triggers its corresponding event in GitHub repository. In that case, test the action by performing the event on the Swit project side and check for the synchronous event in the GitHub repository.
+   </p>
+  </div>
+ </li>
+ <li>
+  <p>
+   Whether a Swit task is created in sync with a GitHub issue or pull request, or it happens the other way around, the task will be attached with a direct link to the GitHub counterpart. This link is used for synchronous completion of the task and issue/pull request, and also helps task followers conveniently visit and view the GitHub article.
+  </p>
+  <div class="block-image">
+   <img alt="Link in the task" src="https://dddswit.github.io/help/integrations/img/github-link-in-task.png"/>
+  </div>
+  <p>
+   See the following section of
+   <i>
+    "Attach task cards with links to GitHub pages"
+   </i>
+   for more details about these links.
+  </p>
+ </li>
+</ol>
+<h2>
+ Attach task cards with links to GitHub pages
+</h2>
+<p>
+ The task details page can be added with links to objects of various Store apps, including GitHub, in its bottom-right corner.
+</p>
+<div class="block-image">
+ <img alt="Links in task" src="https://dddswit.github.io/help/integrations/img/github-link-to-apps-in-task.png"/>
+</div>
+<p>
+ For the GitHub integration, the linkable pages include:
+</p>
+<ul>
+ <li>
+  Branches
+ </li>
+ <li>
+  Issues
+ </li>
+ <li>
+  Pull requests
+ </li>
+ <li>
+  Commits
+ </li>
+</ul>
+<p>
+ You'll find any task cards synced with a GitHub issue or pull request already include a link to the relevant GitHub page. To add a new link to a task card:
+</p>
+<ol>
+ <li>
+  <p>
+   Click on
+   <strong>
+    Link
+   </strong>
+   in the GitHub box to open the page to add a link.
+  </p>
+ </li>
+ <li>
+  <p>
+   Choose a GitHub account you want to connect.
+  </p>
+  <div class="block-image">
+   <img alt="Choosing a Github account" src="https://dddswit.github.io/help/integrations/img/github-choosing-a-github-account.png" width="550px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Select the repository, the page type, and then the specific page you want to link with.
+  </p>
+  <div class="block-image">
+   <img alt="Choosing a GitHub page" src="https://dddswit.github.io/help/integrations/img/github-choosing-a-github-page.png" width="550px"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Find the new link added in the GitHub box. Click
+   <strong>
+    Unlink
+   </strong>
+   next to the link if you want to remove the link.
+  </p>
+  <div class="block-image">
+   <img alt="GitHub link added" src="https://dddswit.github.io/help/integrations/img/github-link-added.png"/>
+  </div>
+ </li>
+</ol>
+<h2>
+ Manage actions
+</h2>
+<p>
+ You can manage established actions in two ways:
+</p>
+<ul>
+ <li>
+  <p>
+   To view and manage all actions added in the workspace, go to Swit Store and under
+   <strong>
+    Manage Apps
+   </strong>
+   , select
+   <strong>
+    GitHub
+   </strong>
+   &gt;
+   <strong>
+    Manage Actions
+   </strong>
+   . And you will be prompted to select the repository that includes the actions you'd like to manage.
+  </p>
+  <div class="block-image">
+   <img alt="Access to management" src="https://dddswit.github.io/help/integrations/img/github-access-to-management.png"/>
+  </div>
+ </li>
+ <li>
+  <p>
+   Clicking on
+   <img alt="GitHub icon" class="icon" src="https://dddswit.github.io/help/integrations/img/github-icon-git.svg"/>
+   in a particular channel or project page will show you all actions belonging to the channel/project.
+  </p>
+  <div class="block-image">
+   <img alt="Add action from channel" src="https://dddswit.github.io/help/integrations/img/github-add-action-from-channel.png"/>
+  </div>
+ </li>
+</ul>
+<p>
+ The action list page provides controls to sort, add, edit, delete, and turn on and off actions. Note that the Edit
+ <img alt="edit" class="icon" src="https://dddswit.github.io/help/integrations/img/store-edit-nor.svg"/>
+ and Delete
+ <img alt="trash" class="icon" src="https://dddswit.github.io/help/integrations/img/store-trash-nor.svg"/>
+ icons appear when an action item is hovered over.
+</p>
+<div class="block-image">
+ <img alt="Manage actions" src="https://dddswit.github.io/help/integrations/img/github-manage-actions.png"/>
+</div>

@@ -1,0 +1,8 @@
+<svg height="28" id="menu-hor" viewbox="-1 -1 28 28" width="28" x="448" xmlns="http://www.w3.org/2000/svg" y="308">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="13" cy="13" fill="#F1F1F1" r="13">
+  </circle>
+  <path d="M13 9a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4zm0 6a2 2 0 110-4 2 2 0 010 4z" fill="#478BFF">
+  </path>
+ </g>
+</svg>

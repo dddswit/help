@@ -1,0 +1,22 @@
+<svg height="158" id="commingsoon" viewbox="-1 -1 92 158" width="92" x="130" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="137.2%" id="dua" width="163.3%" x="-31.7%" y="-9.3%">
+   <feoffset dy="15" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="7">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M53.372 78l35.391 33.818A4 4 0 0190 114.71V152a4 4 0 01-4 4H4a4 4 0 01-4-4v-37.29a4 4 0 011.237-2.892L36.627 78 1.238 44.182A4 4 0 010 41.29V4a4 4 0 014-4h82a4 4 0 014 4v37.29a4 4 0 01-1.237 2.892L53.373 78z" id="dub">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <use fill="#000" filter="url(#dua)" xlink:href="#dub">
+  </use>
+  <use fill="#D8D8DB" xlink:href="#dub">
+  </use>
+  <path d="M81 149H9a2 2 0 01-2-2v-16a2 2 0 012-2h72a2 2 0 012 2v16a2 2 0 01-2 2zM72.394 48.446L46.382 73.302a2 2 0 01-2.764 0L17.606 48.446A2 2 0 0118.988 45h52.024a2 2 0 011.382 3.446z" fill="#F8F8F8">
+  </path>
+ </g>
+</svg>

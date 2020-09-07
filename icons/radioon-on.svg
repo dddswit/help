@@ -1,0 +1,8 @@
+<svg height="16" id="radioon-on" viewbox="-1 -1 16 16" width="16" x="546" xmlns="http://www.w3.org/2000/svg" y="464">
+ <g fill="none" fill-rule="evenodd">
+  <rect fill="#478BFF" height="14" rx="7" width="14">
+  </rect>
+  <rect fill="#FFF" height="6" rx="3" width="6" x="4" y="4">
+  </rect>
+ </g>
+</svg>

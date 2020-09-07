@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "swit-dev",
+  "private_key_id": "7620a383cad21dd7b59dc574456fa4593c6f5ae8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCP9d0E/7Geef+u\nd5WRWRuObMo+7rUC9GIH/9Hkeu8tq8gaVJWAwsCGOfNq6kRU2JUKo0SUm/ACv1BZ\n9y35bke3q07Fsj2wmoBi51YEhNgEIrsBd8ORb1MGD35EBKZZCZ04f46KUZyTnIwO\nV9FzAbtp+7o8LOAsLmnZ0g3l6iCcoqitR2hFT68MeTlowzyeD64md5pwlFPjLt+W\n4cnKudoLSATfMi0bGM0cgHpc0X8BLBPrRkYbPSbZ3JvR3oODYkGYuqTwYxEEahXo\nNaaYt+m+xEPWc9dDCwDNaQBHVW7GZcP2nrm2QHw6xDSijZfHbliqoj2aOBeERqzF\n37co9x7dAgMBAAECggEAB/p0NGp3qCTdQMijsKbmV3tGgycyFMxBTEMHLs6JsmIx\nPb+p0HVv+5BlzJYCpvbLiHJ6Isf4oi0C/EAYxhiF9NMo6LJ4kkYhxDl2GNvZkp3F\nIkSbq/6mNIaydKe9pgoZx++OfAfKscXs33+fnewpkZWv9tVK2uVQnE/fUXprXRre\nZE5wfyKouumQGRVydVEb7MqBfEBzM/35ZGWelJhJ7rZYnt0sj/uFw2xLrCFbYKq+\nGhoIuWzX1f1O/0kD+xw4BEqMT8RRMHOoSEr5MCdMuLY++v/rfZS1gZmFjZAxSYJO\nIsAcH9J6FWINcRIy8q5MVtJE3K+0xjl7ik2VhrYMiQKBgQDBLjkxWj1Q6rLYO/sQ\nvQOtQHL1W6PVeC7NlO2miKIYRkPYpLIslBXMV65noZYI77j1tRcwd6cCFcvDnBJu\nf0X7Mg2F9VhMScHL3DnJeC/0swVpsm8C0Sd7hxB2ksFnVaaQjbqE0CTvz+N+JvGD\nF2eTT2fuyDYiBh6TN7dJYK5OpQKBgQC+xjDLX6O8jnNkG3UiNc9FccFoekfm2TMb\nsMSpxYR7F7zfl8TyCbjm9tL4kd5SwqisB0qaTvYI79laF4Yb5xw5lY97R4TNEvu8\nfz2erpWgwln+u8CRW1Z3X6640TfXjnjxTfYcvV+BsMIHpCIjWEOAmQEcGuleeedX\nsf1gMw+R2QKBgGylDHFfKQDrHi5SfX8KbpjvmDe5lEioUNo6GfYA/fjc+6dJ6RL9\nLc1Aust5qyHXgJRfhm0xvfGERJb8nbkbR0Zg/g4Kz+AH00BN2Qof2Ais7ixlt91D\nuArXCUFGhBMTrpu5ud6cGUnuBymZyVZKwWutyuwWGavE+Ukemqxf/WgpAoGAB6rb\nhzD+2bM3/AwGdyuGexoJVfOkNCkCnthJ7zDbFD9t/eaRqdCuN8ovzIHAV78vHErm\nurD1voI1UCOl5jUxszbJn4DOW5epune6uEf4B5AIIe7V3IG5Re74jMEL54P4ZGpn\nu9v4nLPH+JqmLJl9jQuZOdHzEzL/E006C8XBmHECgYB2b/lEEHwHsGZg3YQXXMKu\nbIlV9e/Drqq2McSTR0ONT09XGeEFgHcyO1uApiSG2CzTtkMXno4kJfe52FjZRmUE\njVsGhVt/uAYByFuDF8bO38Y+CYClR4FxfhDK3uwCgSMhM5MEA/90pDF7bZjiqOV1\nMZOzoc45r6eo/nZDrMkHaA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "swit-gke-dev-express-resource@swit-dev.iam.gserviceaccount.com",
+  "client_id": "103833397198845003369",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/swit-gke-dev-express-resource%40swit-dev.iam.gserviceaccount.com"
+}

@@ -1,0 +1,8 @@
+<svg height="28" id="file-menu-hor" viewbox="-1 -1 28 28" width="28" x="448" xmlns="http://www.w3.org/2000/svg" y="140">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="13" cy="13" fill="#F1F1F1" r="13">
+  </circle>
+  <path d="M12.615 9.23a1.615 1.615 0 11-.001-3.228 1.615 1.615 0 01.001 3.229zM14.23 13a1.615 1.615 0 11-3.228.002A1.615 1.615 0 0114.23 13m0 5.385a1.615 1.615 0 11-3.228.001 1.615 1.615 0 013.229-.001" fill="#8B8E95">
+  </path>
+ </g>
+</svg>

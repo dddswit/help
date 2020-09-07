@@ -1,0 +1,8 @@
+<svg height="42" id="front-large-hor" viewbox="-1 -1 42 42" width="42" x="288" xmlns="http://www.w3.org/2000/svg" y="314">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="20" cy="20" fill="#F1F1F1" r="20" transform="matrix(-1 0 0 1 40 0)">
+  </circle>
+  <path d="M17 26l6-6.061L17.122 14" stroke="#343434" stroke-linecap="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

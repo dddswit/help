@@ -1,0 +1,12 @@
+<svg height="8" id="taskstatus-doing" viewbox="-1 -1 24 8" width="24" x="502" xmlns="http://www.w3.org/2000/svg" y="96">
+ <g fill="none" fill-rule="evenodd" transform="translate(-5 -5)">
+  <rect height="16" rx="3" width="32">
+  </rect>
+  <rect fill="#E6E6E8" height="6" rx="3" width="6" x="5" y="5">
+  </rect>
+  <rect fill="#FFCB00" height="6" rx="3" width="6" x="13" y="5">
+  </rect>
+  <rect fill="#E6E6E8" height="6" rx="3" width="6" x="21" y="5">
+  </rect>
+ </g>
+</svg>

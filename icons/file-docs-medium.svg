@@ -1,0 +1,34 @@
+<svg height="42" id="file-docs-medium" viewbox="-1 -1 32 42" width="32" x="242" xmlns="http://www.w3.org/2000/svg" y="272">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="140.8%" id="fsb" width="140.5%" x="-20.2%" y="-14.6%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M1.44 0h14.407c.795 0 1.44.64 1.44 1.429v14.285c0 .79-.645 1.429-1.44 1.429H1.44c-.796 0-1.441-.64-1.441-1.429V1.43A1.436 1.436 0 011.44 0z" id="fsa">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M22.872 0L30 7.128v30.015A2.857 2.857 0 0127.143 40H2.857A2.857 2.857 0 010 37.143V2.857A2.857 2.857 0 012.857 0h20.015z" fill="#478BFF">
+  </path>
+  <path d="M22.857 0L30 7.143h-5.714c-.79 0-1.429-.64-1.429-1.429V0z" fill="#1D5ECC">
+  </path>
+  <g transform="translate(6 14.286)">
+   <mask fill="#fff" id="fsc">
+    <use xlink:href="#fsa">
+    </use>
+   </mask>
+   <use fill="#000" filter="url(#fsb)" xlink:href="#fsa">
+   </use>
+   <use fill="#FFF" xlink:href="#fsa">
+   </use>
+   <path d="M3.17 2.857h10.948c.159 0 .288.128.288.286v2.286a.287.287 0 01-.288.285H3.169a.287.287 0 01-.288-.285V3.143c0-.158.13-.286.288-.286z" fill="#478BFF" mask="url(#fsc)">
+   </path>
+   <path d="M3.17 7.143h10.948c.159 0 .288.128.288.286v2.285a.287.287 0 01-.288.286H3.169a.287.287 0 01-.288-.286V7.43c0-.158.13-.286.288-.286zm0 4.286h5.186c.159 0 .288.127.288.285V14a.287.287 0 01-.288.286H3.169A.287.287 0 012.881 14v-2.286c0-.158.13-.285.288-.285z" fill="#478BFF" fill-opacity=".5" mask="url(#fsc)">
+   </path>
+  </g>
+ </g>
+</svg>

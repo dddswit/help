@@ -1,0 +1,42 @@
+<svg height="175" id="task-share" viewbox="-1 -1 130 175" width="130" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="250.7%" id="oia" width="206.6%" x="-53.3%" y="-75.3%">
+   <feoffset dy="18" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="5.5">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0">
+   </fecolormatrix>
+   <femerge>
+    <femergenode in="shadowMatrixOuter1">
+    </femergenode>
+    <femergenode in="SourceGraphic">
+    </femergenode>
+   </femerge>
+  </filter>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M43.5 112a3.5 3.5 0 013.5 3.5v12a3.5 3.5 0 11-7 0v-12a3.5 3.5 0 013.5-3.5z" fill="#F8F8F8" opacity=".146">
+  </path>
+  <path d="M64.5 87a3.5 3.5 0 013.5 3.5v43a3.5 3.5 0 11-7 0v-43a3.5 3.5 0 013.5-3.5z" fill="#F8F8F8">
+  </path>
+  <path d="M64.5 144a3.5 3.5 0 013.5 3.5v22a3.5 3.5 0 11-7 0v-22a3.5 3.5 0 013.5-3.5z" fill="#F8F8F8" opacity=".292">
+  </path>
+  <path d="M85.5 103a3.5 3.5 0 110 7 3.5 3.5 0 110-7z" fill="#F8F8F8" opacity=".399">
+  </path>
+  <g filter="url(#oia)" transform="translate(11)">
+   <rect fill="#478BFF" height="105" rx="8" transform="rotate(90 53 37.5)" width="74" x="16" y="-15">
+   </rect>
+   <path d="M48 11h40a5 5 0 010 10H48a5 5 0 010-10zm0 20h17a5 5 0 010 10H48a5 5 0 010-10z" fill="#FFF">
+   </path>
+   <circle cx="21.5" cy="21.5" fill="#FFF" opacity=".298" r="13.5">
+   </circle>
+   <circle cx="20" cy="60" fill="#FFF" opacity=".298" r="7">
+   </circle>
+   <circle cx="21.5" cy="21.5" fill="#FFF" r="10.5">
+   </circle>
+  </g>
+  <path d="M43.5 83a3.5 3.5 0 013.5 3.5v15a3.5 3.5 0 11-7 0v-15a3.5 3.5 0 013.5-3.5zm42 2a3.5 3.5 0 013.5 3.5v5a3.5 3.5 0 01-7 0v-5a3.5 3.5 0 013.5-3.5z" fill="#F8F8F8">
+  </path>
+ </g>
+</svg>

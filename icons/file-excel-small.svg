@@ -1,0 +1,34 @@
+<svg height="30" id="file-excel-small" viewbox="-1 -1 22 30" width="22" x="199" xmlns="http://www.w3.org/2000/svg" y="207">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="158.3%" id="fzb" width="150%" x="-25%" y="-20.8%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M1 0h12a1 1 0 011 1v10a1 1 0 01-1 1H1a1 1 0 01-1-1V1a1 1 0 011-1z" id="fza">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M15.01 0L20 4.99V26a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h13.01z" fill="#62B77F">
+  </path>
+  <path d="M15 0l5 5h-4a1 1 0 01-1-1V0z" fill="#1E7544">
+  </path>
+  <g transform="translate(3 10)">
+   <mask fill="#fff" id="fzc">
+    <use xlink:href="#fza">
+    </use>
+   </mask>
+   <use fill="#000" filter="url(#fzb)" xlink:href="#fza">
+   </use>
+   <use fill="#FFF" xlink:href="#fza">
+   </use>
+   <path d="M2.2 5h1.6c.11 0 .2.09.2.2v4.6a.2.2 0 01-.2.2H2.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm3-3h6.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V2.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V8.2c0-.11.09-.2.2-.2zm4-3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H9.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H9.2a.2.2 0 01-.2-.2V8.2c0-.11.09-.2.2-.2z" fill="#62B77F" mask="url(#fzc)">
+   </path>
+   <path d="M2.2 2h1.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H2.2a.2.2 0 01-.2-.2V2.2c0-.11.09-.2.2-.2z" fill="#62B77F" fill-opacity=".5" mask="url(#fzc)">
+   </path>
+  </g>
+ </g>
+</svg>

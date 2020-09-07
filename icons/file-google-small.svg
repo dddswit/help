@@ -1,0 +1,40 @@
+<svg height="30" id="file-google-small" viewbox="-1 -1 22 30" width="22" x="265" xmlns="http://www.w3.org/2000/svg" y="207">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="168.1%" id="gfa" width="168.1%" x="-34%" y="-24.3%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M2.143 6a2.143 2.143 0 110 4.286 2.143 2.143 0 010-4.286zm6 0a2.143 2.143 0 110 4.286 2.143 2.143 0 010-4.286zm-6-6a2.143 2.143 0 110 4.286 2.143 2.143 0 010-4.286zm6 0a2.143 2.143 0 110 4.286 2.143 2.143 0 010-4.286z" id="gfb">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M14.295 2l4.276 4.277v18.009c0 .946-.767 1.714-1.714 1.714H3.143a1.714 1.714 0 01-1.714-1.714V3.714C1.429 2.768 2.196 2 3.143 2h11.152z" fill="#8B8E95">
+  </path>
+  <path d="M14.286 2l4.285 4.286h-3.428a.857.857 0 01-.857-.857V2z" fill="#343434">
+  </path>
+  <g transform="translate(4.857 10.571)">
+   <use fill="#000" filter="url(#gfa)" xlink:href="#gfb">
+   </use>
+   <use fill="#FFF" xlink:href="#gfb">
+   </use>
+   <circle cx="8.143" cy="8.143" fill="#8B8E95" fill-opacity=".5" r="2.143">
+   </circle>
+   <circle cx="2.143" cy="2.143" fill="#8B8E95" fill-opacity=".5" r="2.143">
+   </circle>
+  </g>
+  <g transform="translate(10 18)">
+   <circle cx="5" cy="5" fill="#343434" r="5">
+   </circle>
+   <path d="M2.192 5.911l.892 1.565 1.928-3.388-.892-1.566z" fill="#D1D1D1">
+   </path>
+   <path d="M3.998 5.869l-.914 1.607 3.857.002.001-.002.866-1.607z" fill="#E9E9E9">
+   </path>
+   <path d="M4.12 2.522L6.027 5.87h1.782L5.903 2.522z" fill="#FFF">
+   </path>
+  </g>
+ </g>
+</svg>

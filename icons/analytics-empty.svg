@@ -1,0 +1,38 @@
+<svg height="122" id="analytics-empty" viewbox="-1 -1 152 122" width="152" x="222" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <rect height="30" id="ama" rx="4" width="80" x="15" y="65">
+  </rect>
+  <rect height="30" id="amb" rx="4" width="60" x="105" y="75">
+  </rect>
+  <rect height="30" id="amc" rx="4" width="100" x="-35" y="55">
+  </rect>
+  <rect height="30" id="amd" rx="4" width="120" x="35" y="45">
+  </rect>
+  <mask fill="#fff" height="30" id="ame" maskcontentunits="userSpaceOnUse" maskunits="objectBoundingBox" width="80" x="0" y="0">
+   <use xlink:href="#ama">
+   </use>
+  </mask>
+  <mask fill="#fff" height="30" id="amf" maskcontentunits="userSpaceOnUse" maskunits="objectBoundingBox" width="60" x="0" y="0">
+   <use xlink:href="#amb">
+   </use>
+  </mask>
+  <mask fill="#fff" height="30" id="amg" maskcontentunits="userSpaceOnUse" maskunits="objectBoundingBox" width="100" x="0" y="0">
+   <use xlink:href="#amc">
+   </use>
+  </mask>
+  <mask fill="#fff" height="30" id="amh" maskcontentunits="userSpaceOnUse" maskunits="objectBoundingBox" width="120" x="0" y="0">
+   <use xlink:href="#amd">
+   </use>
+  </mask>
+ </defs>
+ <g fill="#F8F8F8" fill-rule="evenodd" stroke="#B9BABE" stroke-dasharray="10,4" stroke-width="4">
+  <use mask="url(#ame)" transform="rotate(-90 55 80)" xlink:href="#ama">
+  </use>
+  <use mask="url(#amf)" transform="rotate(-90 135 90)" xlink:href="#amb">
+  </use>
+  <use mask="url(#amg)" transform="rotate(-90 15 70)" xlink:href="#amc">
+  </use>
+  <use mask="url(#amh)" transform="rotate(-90 95 60)" xlink:href="#amd">
+  </use>
+ </g>
+</svg>

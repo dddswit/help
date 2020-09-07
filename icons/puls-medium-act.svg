@@ -1,0 +1,8 @@
+<svg height="18" id="puls-medium-act" viewbox="-1 -1 18 18" width="18" x="502" xmlns="http://www.w3.org/2000/svg" y="522">
+ <g fill="none" fill-rule="evenodd" transform="translate(-7 -7)">
+  <circle cx="15" cy="15" r="15">
+  </circle>
+  <path d="M15 8v14m7-7H8" stroke="#478BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

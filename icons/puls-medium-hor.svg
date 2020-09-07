@@ -1,0 +1,8 @@
+<svg height="32" id="puls-medium-hor" viewbox="-1 -1 32 32" width="32" x="416" xmlns="http://www.w3.org/2000/svg">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="15" cy="15" fill="#F8F8F8" r="15">
+  </circle>
+  <path d="M15 8v14m7-7H8" stroke="#478BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

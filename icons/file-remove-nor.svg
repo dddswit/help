@@ -1,0 +1,8 @@
+<svg height="28" id="file-remove-nor" viewbox="-1 -1 28 28" width="28" x="448" xmlns="http://www.w3.org/2000/svg" y="224">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="13" cy="13" fill="#F1F1F1" r="13">
+  </circle>
+  <path d="M13 11.264l3.905-3.905a1.227 1.227 0 011.736 1.736L14.736 13l3.905 3.905a1.227 1.227 0 11-1.736 1.736L13 14.736 9.095 18.64a1.227 1.227 0 11-1.736-1.736L11.264 13 7.36 9.095a1.227 1.227 0 011.736-1.736L13 11.264z" fill="#B9BABE">
+  </path>
+ </g>
+</svg>

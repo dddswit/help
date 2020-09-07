@@ -1,0 +1,30 @@
+<svg height="30" id="file-all-small" viewbox="-1 -1 22 30" width="22" x="351" xmlns="http://www.w3.org/2000/svg" y="175">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="158.3%" id="foa" width="158.3%" x="-29.2%" y="-20.8%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M2.643 7.429a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm7 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm-7-7a2.5 2.5 0 110 5 2.5 2.5 0 010-5zm7 0a2.5 2.5 0 110 5 2.5 2.5 0 010-5z" id="fob">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M15.01 0L20 4.99V26a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h13.01z" fill="#8B8E95">
+  </path>
+  <path d="M15 0l5 5h-4a1 1 0 01-1-1V0z" fill="#343434">
+  </path>
+  <g transform="translate(3.857 9.571)">
+   <use fill="#000" filter="url(#foa)" xlink:href="#fob">
+   </use>
+   <use fill="#FFF" xlink:href="#fob">
+   </use>
+   <circle cx="9.643" cy="9.929" fill="#8B8E95" fill-opacity=".5" r="2.5">
+   </circle>
+   <circle cx="2.643" cy="2.929" fill="#8B8E95" fill-opacity=".5" r="2.5">
+   </circle>
+  </g>
+ </g>
+</svg>

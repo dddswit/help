@@ -1,0 +1,8 @@
+<svg height="32" id="back-medium-nor" viewbox="-1 -1 32 32" width="32" x="206" xmlns="http://www.w3.org/2000/svg" y="238">
+ <g fill="none" fill-rule="evenodd">
+  <circle cx="15" cy="15" fill="#FFF" r="15">
+  </circle>
+  <path d="M18 21l-6-6.061L17.878 9" stroke="#7E828E" stroke-linecap="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

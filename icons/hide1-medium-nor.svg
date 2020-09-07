@@ -1,0 +1,8 @@
+<svg height="20" id="hide1-medium-nor" viewbox="-1 -1 20 20" width="20" x="526" xmlns="http://www.w3.org/2000/svg" y="160">
+ <g fill="none" fill-rule="evenodd">
+  <path d="M0 9a9 9 0 1118.001.001A9 9 0 010 9z" fill="#FFF" opacity=".6">
+  </path>
+  <path d="M6.172 6.172l5.656 5.656m0-5.656l-5.656 5.656" stroke="#478BFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+  </path>
+ </g>
+</svg>

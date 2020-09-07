@@ -1,0 +1,40 @@
+<svg height="21" id="gitlab-nor" viewbox="-1 -1 20 21" width="20" x="502" xmlns="http://www.w3.org/2000/svg" y="317">
+ <defs>
+  <path d="M.001.419H18V17H.001z" id="iba">
+  </path>
+  <path d="M0 .8h8.997v10.199H0z" id="ibc">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd" transform="translate(-1185 -606)">
+  <rect fill="#FFF" height="30" rx="2" transform="translate(1179 600)" width="30">
+  </rect>
+  <g transform="translate(1185 606.581)">
+   <mask fill="#fff" id="ibb">
+    <use xlink:href="#iba">
+    </use>
+   </mask>
+   <path d="M17.967 9.9l-1.009-3.1L14.963.655c-.102-.314-.548-.314-.654 0l-1.995 6.143H5.685L3.69.654c-.103-.314-.548-.314-.655 0L1.044 6.797.035 9.9a.69.69 0 00.248.768L8.999 17l8.716-6.332a.69.69 0 00.252-.768" fill="#F26E2B" mask="url(#ibb)">
+   </path>
+  </g>
+  <path d="M1194.001 623.577l3.314-10.199h-6.628z" fill="#E14529">
+  </path>
+  <path d="M1193.999 623.577l-3.314-10.199h-4.641z" fill="#F26E2B">
+  </path>
+  <g transform="translate(1185 612.581)">
+   <mask fill="#fff" id="ibd">
+    <use xlink:href="#ibc">
+    </use>
+   </mask>
+   <path d="M1.042.8L.033 3.9c-.09.28.008.591.25.766L8.996 11 1.042.8z" fill="#F9A327" mask="url(#ibd)">
+   </path>
+  </g>
+  <path d="M1186.043 613.381h4.645l-1.998-6.142c-.102-.314-.548-.314-.654 0l-1.993 6.142z" fill="#E14529">
+  </path>
+  <path d="M1194.001 623.577l3.314-10.199h4.646z" fill="#F26E2B">
+  </path>
+  <path d="M1201.957 613.381l1.01 3.1a.69.69 0 01-.25.767l-8.715 6.329 7.955-10.197z" fill="#F9A327">
+  </path>
+  <path d="M1201.96 613.381h-4.645l1.996-6.143c.101-.314.547-.314.654 0l1.995 6.143z" fill="#E14529">
+  </path>
+ </g>
+</svg>

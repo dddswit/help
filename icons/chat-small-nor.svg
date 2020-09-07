@@ -1,0 +1,8 @@
+<svg height="16" id="chat-small-nor" viewbox="-1 -1 16 16" width="16" x="546" xmlns="http://www.w3.org/2000/svg" y="162">
+ <g fill="none" fill-rule="evenodd">
+  <path d="M0 0h14v14H0z">
+  </path>
+  <path d="M13.142 10.36l.758 2.276a1 1 0 01-1.264 1.264l-2.276-.758a7 7 0 112.782-2.782z" fill="#8b8e95">
+  </path>
+ </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg height="26" id="store-remove-account-hor" viewbox="-1 -1 26 26" width="26" x="130" xmlns="http://www.w3.org/2000/svg" y="476">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="146.9%" id="nta" width="105.2%" x="-2.6%" y="-14.1%">
+   <feoffset dy="6" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="4">
+   </fegaussianblur>
+   <fecomposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1">
+   </fecomposite>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M434 228h572c2.21 0 4 1.79 4 4v56c0 2.21-1.79 4-4 4H434c-2.21 0-4-1.79-4-4v-56c0-2.21 1.79-4 4-4z" id="ntb">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd" transform="translate(-966 -248)">
+  <path d="M0 0h1440v900H0z" fill="#FFF">
+  </path>
+  <use fill="#000" filter="url(#nta)" xlink:href="#ntb">
+  </use>
+  <path d="M1006 228.5H434c-.966 0-1.841.392-2.475 1.025A3.493 3.493 0 00430.5 232v56c0 .966.392 1.841 1.025 2.475A3.493 3.493 0 00434 291.5h572c.966 0 1.841-.392 2.475-1.025A3.493 3.493 0 001009.5 288v-56c0-.966-.392-1.841-1.025-2.475A3.493 3.493 0 001006 228.5z" fill="#FFF" stroke="#D8D8DB" stroke-linejoin="square">
+  </path>
+  <path d="M978 258.843l2.603-2.603a.817.817 0 111.157 1.157L979.157 260l2.603 2.603a.817.817 0 11-1.157 1.157L978 261.157l-2.603 2.603a.817.817 0 11-1.157-1.157l2.603-2.603-2.603-2.603a.817.817 0 111.157-1.157l2.603 2.603z" fill="#8B8E95">
+  </path>
+ </g>
+</svg>

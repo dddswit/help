@@ -1,0 +1,18 @@
+<svg height="24" id="assign-task-nor" viewbox="-1 -1 24 24" width="24" x="388" xmlns="http://www.w3.org/2000/svg" y="476">
+ <defs>
+  <circle cx="11" cy="11" id="boa" r="11">
+  </circle>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <mask fill="#fff" id="bob">
+   <use xlink:href="#boa">
+   </use>
+  </mask>
+  <use fill="#E6E6E8" xlink:href="#boa">
+  </use>
+  <g fill="#FFF" mask="url(#bob)">
+   <path d="M11 12.867c2.43 0 4.4-1.986 4.4-4.434C15.4 5.985 13.43 4 11 4 8.57 4 6.6 5.985 6.6 8.433c0 2.448 1.97 4.434 4.4 4.434m6 9.591H5v-6.365a2.412 2.412 0 012.402-2.42h7.196A2.412 2.412 0 0117 16.093v6.365z">
+   </path>
+  </g>
+ </g>
+</svg>

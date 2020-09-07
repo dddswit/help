@@ -1,0 +1,8 @@
+<svg height="32" id="channel-medium-nor" viewbox="-1 -1 32 32" width="32" x="334" xmlns="http://www.w3.org/2000/svg" y="238">
+ <g fill="none" fill-rule="evenodd">
+  <rect fill="#D8D8DB" height="30" rx="4" width="30">
+  </rect>
+  <path d="M13.324 20.418l-2.516 1.53a.35.35 0 01-.524-.371l.484-2.259C9.086 18.168 8 16.348 8 14.3 8 10.82 11.134 8 15 8s7 2.82 7 6.3c0 3.479-3.134 6.3-7 6.3a7.76 7.76 0 01-1.676-.182z" fill="#FFF">
+  </path>
+ </g>
+</svg>

@@ -1,0 +1,8 @@
+<svg height="32" id="project-medium-close-nor" viewbox="-1 -1 32 32" width="32" x="288" xmlns="http://www.w3.org/2000/svg" y="356">
+ <g fill="none" fill-rule="evenodd">
+  <rect fill="#8AC917" height="30" rx="2" width="30">
+  </rect>
+  <path d="M14.657 9.343L9 15l5.657 5.657m6-11.314L15 15l5.657 5.657" stroke="#FFF" stroke-linecap="round" stroke-width="2">
+  </path>
+ </g>
+</svg>

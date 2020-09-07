@@ -1,0 +1,38 @@
+<svg height="30" id="file-gsheet-small" viewbox="-1 -1 22 30" width="22" x="317" xmlns="http://www.w3.org/2000/svg" y="207">
+ <defs>
+  <filter filterunits="objectBoundingBox" height="158.3%" id="gib" width="150%" x="-25%" y="-20.8%">
+   <feoffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1">
+   </feoffset>
+   <fegaussianblur in="shadowOffsetOuter1" result="shadowBlurOuter1" stddeviation="1">
+   </fegaussianblur>
+   <fecolormatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.102381993 0">
+   </fecolormatrix>
+  </filter>
+  <path d="M1 0h12a1 1 0 011 1v10a1 1 0 01-1 1H1a1 1 0 01-1-1V1a1 1 0 011-1z" id="gia">
+  </path>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <path d="M15.01 0L20 4.99V26a2 2 0 01-2 2H2a2 2 0 01-2-2V2a2 2 0 012-2h13.01z" fill="#62B77F">
+  </path>
+  <path d="M15 0l5 5h-4a1 1 0 01-1-1V0z" fill="#1E7544">
+  </path>
+  <g transform="translate(3 10)">
+   <mask fill="#fff" id="gic">
+    <use xlink:href="#gia">
+    </use>
+   </mask>
+   <use fill="#000" filter="url(#gib)" xlink:href="#gia">
+   </use>
+   <use fill="#FFF" xlink:href="#gia">
+   </use>
+   <path d="M2.2 5h1.6c.11 0 .2.09.2.2v4.6a.2.2 0 01-.2.2H2.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm3-3h6.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V2.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H5.2a.2.2 0 01-.2-.2V8.2c0-.11.09-.2.2-.2zm4-3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H9.2a.2.2 0 01-.2-.2V5.2c0-.11.09-.2.2-.2zm0 3h2.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H9.2a.2.2 0 01-.2-.2V8.2c0-.11.09-.2.2-.2z" fill="#62B77F" mask="url(#gic)">
+   </path>
+   <path d="M2.2 2h1.6c.11 0 .2.09.2.2v1.6a.2.2 0 01-.2.2H2.2a.2.2 0 01-.2-.2V2.2c0-.11.09-.2.2-.2z" fill="#62B77F" fill-opacity=".5" mask="url(#gic)">
+   </path>
+  </g>
+  <path d="M12 18h8v8a2 2 0 01-2 2h-8v-8a2 2 0 012-2z" fill="#343434">
+  </path>
+  <path d="M16.725 21.251a.735.735 0 00-.285-1.025.797.797 0 00-1.066.275l-.975 1.624a.735.735 0 00.286 1.025c.28.155.376.5.214.768a.598.598 0 01-.8.206c-.932-.517-1.251-1.665-.713-2.562l.975-1.624c.539-.897 1.731-1.204 2.664-.686.932.518 1.252 1.665.713 2.562a.598.598 0 01-.799.206.551.551 0 01-.214-.769zm-3.45 3.498a.735.735 0 00.285 1.025.797.797 0 001.066-.275l.975-1.624a.735.735 0 00-.286-1.025.551.551 0 01-.214-.768.598.598 0 01.8-.206c.932.517 1.251 1.665.713 2.562l-.975 1.624c-.539.897-1.731 1.204-2.664.686-.932-.518-1.252-1.665-.713-2.562a.598.598 0 01.799-.206c.28.156.375.5.214.769z" fill="#FFF">
+  </path>
+ </g>
+</svg>

@@ -6,7 +6,7 @@ This section covers:
 
 - Installation and configuration
 - Using the Zoom App on Swit
-- Uninstallation
+- Uninstallation and deauthorization
 - Limitations and planned updates
 
 
@@ -27,7 +27,7 @@ This section covers:
 
 ## Configuration
 
-1. Click on the ![Zoom icon](img/zoom12.png) icon on the right panel, then **click Sign In with Zoom**.
+1. Click on the ![Zoom icon](img/zoom12.png) icon on the right panel, then click **Sign In with Zoom**.
 
     ![Sign In with Zoom](img/zoom2.png)
 
@@ -56,24 +56,35 @@ The main Zoom UI is provided on the right panel.
 
 ![Basic in the right panel](img/zoom3.png)
 
-The right panel consists of two controls (**Host Now** and **Schedule Meeting**) and a list of upcoming meetings.
+The right panel offers the following controls:
 
-##### Host Now
+#### Meetings/Webinars dropdown
+Swit's Zoom integration supports managing both meetings and webinars. This dropdown is to select the type of Zoom event you'd like to manage.
+
+!!! note
+
+    Webinars can't be created within Swit.
+
+#### Host Now
 This enables one-click hosting of a Zoom meeting by creating an instant Zoom meeting with default settings. The meeting is scheduled at the current time, and by sharing it, you can have workspace members join the meeting immediately.
 
-##### Schedule Meeting
+#### Schedule Meeting
 This control is used to host a fully user-customized meeting, especially including when to start and end the meeting. The specifiable settings include topic, date and time, time zone, and duration of the meeting.
 
 ![Schedule Meeting dialog box](img/zoom15.png)
 
-##### List of upcoming meetings
+#### List of upcoming meetings
 This section shows upcoming meetings you have scheduled ahead. Each meeting entry displays basic information about the meeting and provides several controls:
 
 ![Meeting entry in the right panel](img/zoom17.png)
 
 - **Start:** Launches the scheduled meeting. This will redirect you to the Zoom meeting page.
 - **Copy invitation:** Copies the meeting invitation text to the clipboard. You can paste it into an email or anywhere else you would like to send it out.
-- **Remove:** Removes the meeting entry from the list.
+- **Delete:** Deletes the meeting from your Zoom account.
+
+    !!! note
+
+        The recoverability of a deleted meeting/webinar depends on Zoom's policy. As of June 2020, **meetings** can be recovered within 7 days of deleting them, while **webinars** are permanently deleted immediately and thus unrecoverable.
 
 You can drag and drop this entry onto a Swit chat room or direct message to share it as an invitation for the channel members.
 
@@ -85,22 +96,22 @@ The channel provides some essential Zoom controls both in the chat room (and dir
 
 ![Zoom menu in the channel](img/zoom11.png)
 
-##### Host meeting now & Schedule meeting
+#### Host meeting now & Schedule meeting
 These two controls work almost the same way as **Host Now** and **Schedule Meeting**, respectively, in the right panel. The only difference is that they automatically leave an invitation for the newly created meeting entry in the channel.
 
-##### Share scheduled meeting
-This enables you to share any previously scheduled upcoming meeting in the channel. Click this to open the following dialog box and select the scheduled meeting you want to share, then click **Confirm**.
+#### Share scheduled meeting
+This enables you to share any previously scheduled upcoming meeting in the channel. Click this to open the following dialog box and select the scheduled meeting or webinar you want to share, then click **Confirm**.
 
 ![Share Scheduled Meeting](img/zoom10.png)
 
 Although they provide the same Zoom features, the chat room and idea forum display invitations in significantly different formats:
 
-##### Meetings shared in the chat room
+#### Meetings shared in the chat room
 In the chat room, members can join the meeting simply by clicking on the **Join** button.
 
 ![Invitation in the chat room](img/zoom18.png)
 
-##### Meetings shared in the idea forum
+#### Meetings shared in the idea forum
 Instead of giving a **Join** control, the idea forum posts a full text of the invitation, including the meeting URL, ID, and password.
 
 ![Invitation in the idea forum](img/zoom13.png)
@@ -111,15 +122,15 @@ The task page provides a Zoom extension in the right bottom corner, allowing you
 
 ![Basic in the task page](img/zoom1.png)
 
-##### Host Now & Schedule Meeting
+#### Host Now & Schedule Meeting
 These two controls work almost the same way as **Host Now** and **Schedule Meeting**, respectively, in the right panel. The only difference is that they automatically leave an invitation for the newly created meeting entry in the task card.
 
-##### Link
-This enables you to share any previously scheduled upcoming meeting in the task card. Click this to open the following dialog box and select the scheduled meeting you want to share, then click **Confirm**.
+#### Link
+This enables you to share any previously scheduled upcoming meeting in the task card. Click this to open the following dialog box and select the scheduled meeting or webinar you want to share.
 
 ![Link dialog box](img/zoom8.png)
 
-##### List of linked meetings
+#### List of linked meetings
 This section shows upcoming meetings linked with the task. Each meeting entry displays basic information about the meeting and provides several controls:
 
 ![Meeting entry in the right panel](img/zoom19.png)
@@ -129,13 +140,23 @@ This section shows upcoming meetings linked with the task. Each meeting entry di
 - **Unlink:** Deletes the link with the task.
 
 
-## Uninstallation
+## Uninstallation and deauthorization
+
+To uninstall the Zoom integration from a workspace:
 
 1. Visit the Swit Store page for the relevant workspace.
 1. Find Zoom and click **Manage**.
 1. Click **Uninstall**.
 1. Read the dialogue and click **Confirm**.
 
+To deauthorize Swit to access your Zoom account:
+
+1. From the home page, go to **User settings** > **Applications**.
+1. In the **Authorized Swit Apps** list, find the Zoom integration you want to deauthorize, then click **Revoke**.
+
+    ![Revocation](img/zoom20.png)
+
+1. Confirm the deauthorization.
 
 ## Limitations
 

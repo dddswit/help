@@ -1,0 +1,12 @@
+<svg height="16" id="radiooff-off" viewbox="-1 -1 16 16" width="16" x="546" xmlns="http://www.w3.org/2000/svg" y="448">
+ <defs>
+  <rect height="14" id="mla" rx="7" width="14" x="0" y="0">
+  </rect>
+ </defs>
+ <g fill="none" fill-rule="evenodd">
+  <use fill="#FFF" xlink:href="#mla">
+  </use>
+  <rect height="13" rx="6.5" stroke="#D8D8DB" width="13" x=".5" y=".5">
+  </rect>
+ </g>
+</svg>
